@@ -1,4 +1,5 @@
 # Sources of EPFL's Summer Research Institute Website
+See [https://suri.epfl.ch](https://suri.epfl.ch).
 
 ## Requirements
 
@@ -11,17 +12,17 @@
 
 Before you create a new version of the website make sure to archive the current
 one, if it has not been done already. You can use the `archive.sh` script for
-that. Call it as follows:
+that as follows:
 
 ```
 ./archive.sh <year>
 ```
 
-This takes the current site and archives it under `https://suri.epfl.ch/year`.
+This takes the current site and archives it under https://suri.epfl.ch/\<year\>.
 
 ## Development and Deployment
 
-Run a local server:
+Run a local server at [http://127.0.0.1:1313](http://127.0.0.1:1313):
 
 ```
 make server
