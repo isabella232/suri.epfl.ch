@@ -1,0 +1,171 @@
+talks:
+
+    - date: "14.06.17"
+      entries: 
+
+        - title: "Talk 1"
+          speaker: "Speaker 1"
+          abstract: "Abstract 1"
+          pdf: "Slides 1"
+
+        - title: "Talk 2"
+          speaker: "Speaker 2"
+          abstract: "Abstract 2"
+          pdf: "Slides 2"
+
+        - title: "Talk 3"
+          speaker: "Speaker 3"
+          abstract: "Abstract 3"
+          pdf: "Slides 3"
+
+        - title: "Talk 4"
+          speaker: "Speaker 4"
+          abstract: "Abstract 4"
+          pdf: "Slides 4"
+
+    - date: "15.06.17"
+      entries: 
+        - title: "Talk 1"
+          speaker: "Speaker 1"
+          abstract: "Abstract 1"
+          pdf: "Slides 1"
+
+        - title: "Talk 2"
+          speaker: "Speaker 2"
+          abstract: "Abstract 2"
+          pdf: "Slides 2"
+
+        - title: "Talk 3"
+          speaker: "Speaker 3"
+          abstract: "Abstract 3"
+          pdf: "Slides 3"
+
+        - title: "Talk 4"
+          speaker: "Speaker 4"
+          abstract: "Abstract 4"
+          pdf: "Slides 4"
+
+    - date: "16.06.17"
+      entries: 
+        - title: "Talk 1"
+          speaker: "Speaker 1"
+          abstract: "Abstract 1"
+          pdf: "Slides 1"
+
+        - title: "Talk 2"
+          speaker: "Speaker 2"
+          abstract: "Abstract 2"
+          pdf: "Slides 2"
+
+        - title: "Talk 3"
+          speaker: "Speaker 3"
+          abstract: "Abstract 3"
+          pdf: "Slides 3"
+
+        - title: "Talk 4"
+          speaker: "Speaker 4"
+          abstract: "Abstract 4"
+          pdf: "Slides 4"
+
+    - date: "19.06.17"
+      entries: 
+        - title: "Talk 1"
+          speaker: "Speaker 1"
+          abstract: "Abstract 1"
+          pdf: "Slides 1"
+
+        - title: "Talk 2"
+          speaker: "Speaker 2"
+          abstract: "Abstract 2"
+          pdf: "Slides 2"
+
+        - title: "Talk 3"
+          speaker: "Speaker 3"
+          abstract: "Abstract 3"
+          pdf: "Slides 3"
+
+        - title: "Talk 4"
+          speaker: "Speaker 4"
+          abstract: "Abstract 4"
+          pdf: "Slides 4"
+
+    - date: "20.06.17"
+      entries: 
+
+        - title: "Talk 1"
+          speaker: "Speaker 1"
+          abstract: "Abstract 1"
+          pdf: "Slides 1"
+
+        - title: "Talk 2"
+          speaker: "Speaker 2"
+          abstract: "Abstract 2"
+          pdf: "Slides 2"
+
+        - title: "Talk 3"
+          speaker: "Speaker 3"
+          abstract: "Abstract 3"
+          pdf: "Slides 3"
+
+        - title: "Talk 4"
+          speaker: "Speaker 4"
+          abstract: "Abstract 4"
+          pdf: "Slides 4"
+
+speakers:
+
+    - name: "Ewa Syta"
+      affil: "Trinity College"
+      site: "http://ewa.syta.us/"
+      img: "ewa-syta.jpg"
+
+    - name: "David Basin"
+      affil: "ETHZ"
+      site: "https://www.inf.ethz.ch/personal/basin/"
+      img: "david-basin.jpg"
+
+    - name: "Adrian Perrig"
+      affil: "ETHZ"
+      site: "http://www.netsec.ethz.ch/people/aperrig/"
+      img: "adrian-perrig.jpg"
+
+    - name: "Dan Wallach"
+      affil: "Rice"
+      site: "https://www.cs.rice.edu/~dwallach/"
+      img: "dan-wallach.jpg"
+
+
+organizers:
+
+    - name: "Martin Jaggi"
+      site: "https://people.epfl.ch/martin.jaggi"
+      img: "martin-jaggi.jpg"
+
+    - name: "Bryan Ford"
+      site: "https://people.epfl.ch/bryan.ford"
+      img: "bryan-ford.jpg"
+
+    - name: "Mikhail Kapralov"
+      site: "https://people.epfl.ch/michael.kapralov"
+      img: "michael-kapralov.jpg"
+
+    - name: "Philipp Jovanovic"
+      site: "https://people.epfl.ch/philipp.jovanovic"
+      img: "philipp-jovanovic.png"
+
+    - name: "Jean-Pierre Hubaux"
+      site: "https://people.epfl.ch/jean-pierre.hubaux"
+      img: "jean-pierre-hubaux.jpg"
+
+    - name: "Angela Devenoge"
+      site: "https://people.epfl.ch/angela.devenoge"
+      img: "angela-devenoge.jpg"
+
+    - name: "Ola Nils Anders Svensson"
+      site: "https://people.epfl.ch/ola.svensson"
+      img: "ola-svensson.jpg"
+
+    - name: "Pauline Raffestin"
+      site: "https://rgl.epfl.ch/people/praffestin"
+      img: "pauline-raffestin.jpg"
+

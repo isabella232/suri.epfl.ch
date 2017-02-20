@@ -1,0 +1,10 @@
+languageCode = "en-us"
+baseurl = "http://128.178.156.160/"
+title = "Summer Research Institute"
+
+[social]
+    twitter = "https://twitter.com/epfl"
+    mail = "dedis@epfl.ch"
+
+[params]
+    program = "false"
