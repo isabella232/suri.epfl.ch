@@ -2,9 +2,10 @@
 
 ## Requirements
 
-- `golang`
-- `make`
-- `rsync`
+- [golang](https://golang.org/)
+- [hugo](https://gohugo.io/)
+- [make](https://www.gnu.org/software/make/)
+- [rsync](https://rsync.samba.org/)
 
 ## Getting Started
 
