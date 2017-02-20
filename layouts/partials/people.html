@@ -1,0 +1,56 @@
+{{ $path := $.Scratch.Get "path" }}
+{{ $len := len $path }}
+{{ $t := 12 }}        <!-- total -->
+{{ $s := 4 }}         <!-- number of columns -->
+{{ $r := div $t $s }} <!-- factor -->
+
+{{ $div := div $len $s }}  <!-- a = l / s -->
+{{ $rest := mod $len $s }} <!-- b = l % s -->
+
+{{ $.Scratch.Add "counter" $div }}
+{{ if (gt $rest 0) }}
+    {{ $.Scratch.Set "counter" (add $div 1) }}
+    {{ $.Scratch.Set "rest" (sub $rest 1) }}
+{{ end }}
+
+<div class="row">
+    {{ $last := sub $len 1 }} <!-- index of last entry -->
+    {{ range $i, $e := $path }}
+
+        {{ if (eq $i 0) }}
+            <div class="{{ $r }}u {{ $t }}u$(mobile)">
+        {{ end }}
+
+            <article class="item">
+                <a href="{{ $e.site }}" class="image fit"><img src="{{ .Site.BaseURL }}img/{{ $e.img }}" alt="" /></a>
+                <header>
+                    <h3><a href="{{ $e.site }}">{{ $e.name }} {{ if $e.affil }}({{$e.affil}}){{end}}</a> </h3>
+                </header>
+            </article>
+
+        {{ $c := (sub ($.Scratch.Get "counter") 1) }}
+        {{ $.Scratch.Set "counter" $c }}
+
+        {{ if and (eq $c 0) (ne $i $last) }}
+
+            </div>
+            <div class="{{ $r }}u {{ $t }}u$(mobile)">
+
+            <!-- update counters -->
+            {{ $rest := $.Scratch.Get "rest" }}  
+            {{ if (gt $rest 0) }}
+                {{ $.Scratch.Set "counter" (add $div 1) }}
+                {{ $.Scratch.Set "rest" (sub $rest 1) }}
+            {{ else }}
+                {{ $.Scratch.Set "counter" $div }}
+            {{ end }}
+
+        {{ end }}
+
+        {{ if (eq $i $last) }}
+            </div>
+        {{ end }}
+
+    {{ end }}
+</div>
+

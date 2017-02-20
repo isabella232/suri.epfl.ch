@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>The Summer Research Institute</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="{{ .Site.BaseURL }}css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="{{ .Site.BaseURL }}css/ie9.css" /><![endif]-->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/suri.css" />
+    </head>
+    <body>
+
+        <!-- Set data file: latest.yaml -->
+            {{ $talks := $.Site.Data.latest.talks }}
+            {{ $speakers := $.Site.Data.latest.speakers }}
+            {{ $organizers := $.Site.Data.latest.organizers }}
+
+        <!-- Header -->
+            <div id="header">
+
+                <div class="top">
+
+                    <div>
+                        <a href="{{ .Site.BaseURL }}"><img class="epfl-logo" src="{{ .Site.BaseURL }}img/epfl-logo.jpg"></a>
+                    </div>
+
+                    <!-- Logo -->
+                        <div id="logo">
+                            <!--<span class="image avatar48"><img src="{{ .Site.BaseURL }}img/epfl-logo.png" alt="" /></span>-->
+                            <h1 id="title">The Summer Research Institute</h1>
+                        </div>
+
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Start</span></a></li>
+                                <li><a href="#overview" id="overview-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Overview</span></a></li>
+                                <li><a href="#program" id="program-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Program</span></a></li>
+                                <li><a href="#speakers" id="speakers-link" class="skel-layers-ignoreHref"><span class="icon fa-users">Speakers</span></a></li>
+                                <li><a href="#organizers" id="organizers-link" class="skel-layers-ignoreHref"><span class="icon fa-institution">Organizers</span></a></li>
+                                <li><a href="#directions" id="directions-link" class="skel-layers-ignoreHref"><span class="icon fa-map-marker">Directions</span></a></li>
+                                <li><a href="#archive" id="archive-link" class="skel-layers-ignoreHref"><span class="icon fa-list">Archive</span></a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                        <ul class="icons">
+                            <li><a href="{{ .Site.Social.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="mailto:{{ .Site.Social.mail }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                </div>
+
+            </div>
+
+        <!-- Main -->
+            <div id="main">
+
+                <!-- Home -->
+                <!-- <section id="top" class="cover">
+                    <img id="banner" src="{{ .Site.BaseURL }}/img/epfl-aerial.jpg">
+                </section>-->
+
+                <!-- Intro -->
+                    <section id="top" class="one dark cover">
+                        <div class="container">
+                            <header>
+                                <h4>EPFL</h4>
+                                <h4>School of Computer and Communication Sciences</h4>
+                                <h2>The Summer Research Institute 2017</h2>
+                                <p>14.06.17 - 20.06.17</p>
+                            </header>
+                        </div>
+                    </section>
+
+                <!-- Overview -->
+                    <section id="overview" class="two">
+                        <div class="container">
+                            <header>
+                                <h2>Overview</h2>
+                            </header>
+                            <main>
+                                <p>
+                                    The <strong>Summer Research Institute (SuRI)</strong> is an annual event that takes place at the 
+                                    <a href="http://ic.epfl.ch/">School of Computer and Communication Sciences</a> at <a href="https://epfl.ch">EPFL</a> in Lausanne, Switzerland.
+                                    The workshop brings together renowned researchers and experts from academia and industry. 
+                                    It features a number of research talks by speakers from all around the world and is conducive to informal discussions and social activities. 
+                                    <!--In addition to the invited researchers, the audience includes primarily EPFL students, researchers and faculty members. -->
+                                    This year's edition of SuRI features two tracks: 
+                                    <ul>
+                                        <li><strong>Data Science (June 14 - 16, 2017)</strong></li>
+                                        <li><strong>Security and Privacy (June 19 - 20, 2017)</strong></li>
+                                    </ul>
+
+                                </p>
+                                <p>
+                                    The event is <strong>open to everyone</strong>, attendance is <strong>free of charge</strong> and <strong>no registration</strong> is required.
+                                </p>
+                            </main>
+                            <footer>
+                                <p>For more information:</p>
+                                <a href="mailto:{{ .Site.Social.mail }}" class="button">Contact us</a>
+                            </footer>
+                        </div>
+                    </section>
+
+                <!-- Program -->
+                    <section id="program" class="three">
+                        <div class="container">
+                            <header>
+                                <h2>Program</h2>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Add "path" $talks }}
+                                {{ partial "talks.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Speakers -->
+                    <section id="speakers" class="four">
+                        <div class="container">
+                            <header>
+                                <h2>Speakers</h2>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Set "path" $speakers }}
+                                {{ partial "people.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+
+                <!-- Organizers -->
+                    <section id="organizers" class="two">
+                        <div class="container">
+                            <header>
+                                <h2>Organizers</h2>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Set "path" $organizers }}
+                                {{ partial "people.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Directions -->
+                    <section id="directions" class="three">
+                        <div class="container">
+                            <header>
+                                <h2>Directions</h2>
+                            </header>
+                            <main>
+                                <iframe id="map" src="https://www.google.com/maps/d/u/0/embed?mid=12tAlTbKrjKHnIk6JUsRIfaOW8LE"></iframe>
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Archive -->
+                    <section id="archive" class="four">
+                        <div class="container">
+                            <header>
+                                <h2>Archive</h2>
+                            </header>
+                            <main>
+                                <p>The past editions of EPFL's Summer Research Institute can be found <a href="http://suri.epfl.ch/past">here</a>.</p>
+                            </main>
+                        </div>
+                    </section>
+
+            </div>
+
+        <!-- Footer -->
+            <div id="footer">
+
+                <!-- Copyright -->
+                    <ul class="copyright">
+                        <li>&copy; <a href="https://epfl.ch">EPFL</a> 2017. All rights reserved.</li><li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/jquery.scrolly.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/jquery.scrollzer.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/skel.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/util.js"></script>
+            <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/respond.min.js"></script><![endif]-->
+            <script src="{{ .Site.BaseURL }}js/main.js"></script>
+    </body>
+</html>

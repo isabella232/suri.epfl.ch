@@ -1,0 +1,16 @@
+{{ if eq .Site.Params.program "true" }} 
+    {{ $path := $.Scratch.Get "path" }}
+    {{ range $path }}
+        <h4>{{ .date }}</h4>
+        <ul>
+            {{ range .entries }}
+            <li>
+                {{ .title }}, {{ .speaker }}, {{ .abstract }}, {{ .pdf }}
+            </li>
+            {{ end }}
+        </ul>
+    {{ end }}
+{{ else }}
+    <h4>To be announced</h4>
+{{ end }}
+
