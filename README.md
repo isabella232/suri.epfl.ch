@@ -18,7 +18,7 @@ that as follows:
 ./archive.sh <year>
 ```
 
-This takes the current site and archives it under https://suri.epfl.ch/\<year\>.
+This takes the current site and archives it under https://suri.epfl.ch/&lt;year&gt;.
 
 ## Development and Deployment
 
