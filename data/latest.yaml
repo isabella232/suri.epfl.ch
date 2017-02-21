@@ -129,15 +129,20 @@ speakers:
       site: "http://www.arijuels.com/"
       img: "ari-juels.jpg"
 
-    - name: "Ewa Syta"
-      affil: "Trinity College"
-      site: "http://ewa.syta.us/"
-      img: "ewa-syta.jpg"
+    - name: "Adrian Lobsiger"
+      affil: "FDPIC"
+      site: "https://www.edoeb.admin.ch/org/00125/index.html?lang=en"
+      img: "adrian-lobsiger.jpg"
 
     - name: "Adrian Perrig"
       affil: "ETHZ"
       site: "http://www.netsec.ethz.ch/people/aperrig/"
       img: "adrian-perrig.jpg"
+
+    - name: "Ewa Syta"
+      affil: "Trinity College"
+      site: "http://ewa.syta.us/"
+      img: "ewa-syta.jpg"
 
     - name: "Dan Wallach"
       affil: "Rice"
