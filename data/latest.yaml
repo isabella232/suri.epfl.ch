@@ -114,15 +114,25 @@ talks:
 
 speakers:
 
-    - name: "Ewa Syta"
-      affil: "Trinity College"
-      site: "http://ewa.syta.us/"
-      img: "ewa-syta.jpg"
-
     - name: "David Basin"
       affil: "ETHZ"
       site: "https://www.inf.ethz.ch/personal/basin/"
       img: "david-basin.jpg"
+
+    - name: "Ian Goldberg"
+      affil: "University of Waterloo"
+      site: "https://cs.uwaterloo.ca/~iang/"
+      img: "ian-goldberg.jpg"
+
+    - name: "Ari Juels"
+      affil: "Cornell Tech"
+      site: "http://www.arijuels.com/"
+      img: "ari-juels.jpg"
+
+    - name: "Ewa Syta"
+      affil: "Trinity College"
+      site: "http://ewa.syta.us/"
+      img: "ewa-syta.jpg"
 
     - name: "Adrian Perrig"
       affil: "ETHZ"
@@ -133,7 +143,6 @@ speakers:
       affil: "Rice"
       site: "https://www.cs.rice.edu/~dwallach/"
       img: "dan-wallach.jpg"
-
 
 organizers:
 
