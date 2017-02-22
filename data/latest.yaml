@@ -119,6 +119,11 @@ speakers:
       site: "https://www.inf.ethz.ch/personal/basin/"
       img: "david-basin.jpg"
 
+    - name: "Bruno Blanchet"
+      affil: "INRIA"
+      site: "http://prosecco.gforge.inria.fr/personal/bblanche/"
+      img: "bruno-blanchet.jpg"
+
     - name: "Ian Goldberg"
       affil: "University of Waterloo"
       site: "https://cs.uwaterloo.ca/~iang/"
