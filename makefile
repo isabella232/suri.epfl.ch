@@ -1,4 +1,4 @@
-DEST=epfl-suri-root:/var/www/html/
+DEST=epfl-suri:/var/www/html/
 SRC=public/
 
 server:
