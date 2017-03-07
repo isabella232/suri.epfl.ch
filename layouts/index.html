@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>The Summer Research Institute</title>
+        <title>{{ .Site.Title }}</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/html5shiv.js"></script><![endif]-->
@@ -29,7 +29,9 @@
                     <!-- Logo -->
                         <div id="logo">
                             <!--<span class="image avatar48"><img src="{{ .Site.BaseURL }}img/epfl-logo.png" alt="" /></span>-->
-                            <h1 id="title">The Summer Research Institute</h1>
+                            <h1 id="title">{{ .Site.Title }}</h1>
+                            <p>14.06.17 - 20.06.17</p>
+                            <p>EPFL, BC 420</p>
                         </div>
 
                     <!-- Nav -->
@@ -72,7 +74,7 @@
                             <header>
                                 <h4>EPFL</h4>
                                 <h4>School of Computer and Communication Sciences</h4>
-                                <h2>The Summer Research Institute 2017</h2>
+                                <h2>{{ .Site.Title }}</h2>
                                 <p>14.06.17 - 20.06.17</p>
                             </header>
                         </div>

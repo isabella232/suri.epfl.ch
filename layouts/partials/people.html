@@ -24,7 +24,7 @@
             <article class="item">
                 <a href="{{ $e.site }}" class="image fit"><img src="{{ .Site.BaseURL }}img/{{ $e.img }}" alt="" /></a>
                 <header>
-                    <h3><a href="{{ $e.site }}">{{ $e.name }} {{ if $e.affil }}({{$e.affil}}){{end}}</a> </h3>
+                    <h3><a href="{{ $e.site }}">{{ $e.name }} {{ if $e.affil }}<br>({{$e.affil}}){{end}}</a> </h3>
                 </header>
             </article>
 
