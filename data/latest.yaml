@@ -139,6 +139,11 @@ speakers:
       site: "http://www.arijuels.com/"
       img: "ari-juels.jpg"
 
+    - name: "Negar Kiyavash"
+      affil: "UIUC"
+      site: "https://www.ece.illinois.edu/directory/profile/kiyavash"
+      img: "negar-kiyavash.jpg"
+
     - name: "Adrian Lobsiger"
       affil: "FDPIC"
       site: "https://www.edoeb.admin.ch/org/00125/index.html?lang=en"
