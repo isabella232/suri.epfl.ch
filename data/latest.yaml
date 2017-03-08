@@ -117,84 +117,84 @@ speakers:
     - name: "David Basin"
       affil: "ETHZ"
       site: "https://www.inf.ethz.ch/personal/basin/"
-      img: "david-basin.jpg"
+      img: "speakers/david-basin.jpg"
 
     - name: "Bruno Blanchet"
       affil: "INRIA"
       site: "http://prosecco.gforge.inria.fr/personal/bblanche/"
-      img: "bruno-blanchet.jpg"
+      img: "speakers/bruno-blanchet.jpg"
 
     - name: "George Danezis"
       affil: "UCL"
       site: "http://www0.cs.ucl.ac.uk/staff/G.Danezis/"
-      img: "george-danezis.jpg"
+      img: "speakers/george-danezis.jpg"
 
     - name: "Ian Goldberg"
       affil: "University of Waterloo"
       site: "https://cs.uwaterloo.ca/~iang/"
-      img: "ian-goldberg.jpg"
+      img: "speakers/ian-goldberg.jpg"
 
     - name: "Ari Juels"
       affil: "Cornell Tech"
       site: "http://www.arijuels.com/"
-      img: "ari-juels.jpg"
+      img: "speakers/ari-juels.jpg"
 
     - name: "Negar Kiyavash"
       affil: "UIUC"
       site: "https://www.ece.illinois.edu/directory/profile/kiyavash"
-      img: "negar-kiyavash.jpg"
+      img: "speakers/negar-kiyavash.jpg"
 
     - name: "Adrian Lobsiger"
       affil: "FDPIC"
       site: "https://www.edoeb.admin.ch/org/00125/index.html?lang=en"
-      img: "adrian-lobsiger.jpg"
+      img: "speakers/adrian-lobsiger.jpg"
 
     - name: "Adrian Perrig"
       affil: "ETHZ"
       site: "http://www.netsec.ethz.ch/people/aperrig/"
-      img: "adrian-perrig.jpg"
+      img: "speakers/adrian-perrig.jpg"
 
     - name: "Ewa Syta"
       affil: "Trinity College"
       site: "http://ewa.syta.us/"
-      img: "ewa-syta.jpg"
+      img: "speakers/ewa-syta.jpg"
 
     - name: "Dan Wallach"
       affil: "Rice"
       site: "https://www.cs.rice.edu/~dwallach/"
-      img: "dan-wallach.jpg"
+      img: "speakers/dan-wallach.jpg"
 
 organizers:
 
     - name: "Martin Jaggi"
       site: "https://people.epfl.ch/martin.jaggi"
-      img: "martin-jaggi.jpg"
+      img: "organizers/martin-jaggi.jpg"
 
     - name: "Bryan Ford"
       site: "https://people.epfl.ch/bryan.ford"
-      img: "bryan-ford.jpg"
+      img: "organizers/bryan-ford.jpg"
 
     - name: "Mikhail Kapralov"
       site: "https://people.epfl.ch/michael.kapralov"
-      img: "michael-kapralov.jpg"
+      img: "organizers/michael-kapralov.jpg"
 
     - name: "Philipp Jovanovic"
       site: "https://people.epfl.ch/philipp.jovanovic"
-      img: "philipp-jovanovic.png"
+      img: "organizers/philipp-jovanovic.png"
 
     - name: "Jean-Pierre Hubaux"
       site: "https://people.epfl.ch/jean-pierre.hubaux"
-      img: "jean-pierre-hubaux.jpg"
+      img: "organizers/jean-pierre-hubaux.jpg"
 
     - name: "Angela Devenoge"
       site: "https://people.epfl.ch/angela.devenoge"
-      img: "angela-devenoge.jpg"
+      img: "organizers/angela-devenoge.jpg"
 
     - name: "Ola Nils Anders Svensson"
       site: "https://people.epfl.ch/ola.svensson"
-      img: "ola-svensson.jpg"
+      img: "organizers/ola-svensson.jpg"
 
     - name: "Pauline Raffestin"
       site: "https://rgl.epfl.ch/people/praffestin"
-      img: "pauline-raffestin.jpg"
+      img: "organizers/pauline-raffestin.jpg"
 

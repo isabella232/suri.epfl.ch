@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="{{ .Site.BaseURL }}css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="{{ .Site.BaseURL }}css/ie9.css" /><![endif]-->
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/suri.css" />
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css" />
     </head>
     <body>
 
@@ -23,7 +23,7 @@
                 <div class="top">
 
                     <div>
-                        <a href="{{ .Site.BaseURL }}"><img class="epfl-logo" src="{{ .Site.BaseURL }}img/epfl-ic-logo.jpg"></a>
+                        <a href="{{ .Site.BaseURL }}"><img class="epfl-logo" src="{{ .Site.BaseURL }}img/logos/epfl-ic-logo.jpg"></a>
                     </div>
 
                     <!-- Logo -->
@@ -63,13 +63,8 @@
         <!-- Main -->
             <div id="main">
 
-                <!-- Home -->
-                <!-- <section id="top" class="cover">
-                    <img id="banner" src="{{ .Site.BaseURL }}/img/epfl-aerial.jpg">
-                </section>-->
-
                 <!-- Intro -->
-                    <section id="top" class="one dark cover">
+                    <section id="top" class="one dark cover" style="background-image: url('../img/covers/epfl-aerial-copy.jpg'); color: white">
                         <div class="container">
                             <header>
                                 <h4>EPFL</h4>
@@ -158,7 +153,9 @@
                                 <h2>Directions</h2>
                             </header>
                             <main>
-                                <iframe id="map" src="https://www.google.com/maps/d/u/0/embed?mid=12tAlTbKrjKHnIk6JUsRIfaOW8LE"></iframe>
+                                <div class="map-container">
+                                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12tAlTbKrjKHnIk6JUsRIfaOW8LE"></iframe>
+                                </div>
                                 <p>More details following soon.</p>
                             </main>
                         </div>
@@ -176,7 +173,16 @@
                         </div>
                     </section>
 
+
+                <!-- Final Image Section -->
+                    <section id="top" class="one dark cover background" style="background-image: url('../img/covers/rolex-center-dawn.jpg');">
+                        <div class="container">
+                            <p></p>
+                        </div>
+                    </section>
+
             </div>
+
 
         <!-- Footer -->
             <div id="footer">
