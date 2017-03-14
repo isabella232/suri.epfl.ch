@@ -15,7 +15,8 @@
 
         <!-- Set data file: latest.yaml -->
             {{ $talks := $.Site.Data.latest.talks }}
-            {{ $speakers := $.Site.Data.latest.speakers }}
+            {{ $datascience:= $.Site.Data.latest.datascience }}
+            {{ $security:= $.Site.Data.latest.security }}
             {{ $organizers := $.Site.Data.latest.organizers }}
 
         <!-- Header -->
@@ -125,9 +126,23 @@
                         <div class="container">
                             <header>
                                 <h2>Speakers</h2>
+                                <h3>Data Science</h3>
                             </header>
                             <main>
-                                {{ $.Scratch.Set "path" $speakers }}
+                                {{ $.Scratch.Set "path" $datascience }}
+                                {{ partial "people.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                    <section id="speakers" class="two">
+                        <div class="container">
+                            <header>
+                                <h2>Speakers</h2>
+                                <h3>Security and Privacy</h3>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Set "path" $security }}
                                 {{ partial "people.html" . }}
                             </main>
                         </div>
@@ -135,7 +150,7 @@
 
 
                 <!-- Organizers -->
-                    <section id="organizers" class="two">
+                    <section id="organizers" class="three">
                         <div class="container">
                             <header>
                                 <h2>Organizers</h2>
@@ -148,7 +163,7 @@
                     </section>
 
                 <!-- Directions -->
-                    <section id="directions" class="three">
+                    <section id="directions" class="four">
                         <div class="container">
                             <header>
                                 <h2>Directions</h2>
@@ -163,7 +178,7 @@
                     </section>
 
                 <!-- Archive -->
-                    <section id="archive" class="four">
+                    <section id="archive" class="two">
                         <div class="container">
                             <header>
                                 <h2>Archive</h2>

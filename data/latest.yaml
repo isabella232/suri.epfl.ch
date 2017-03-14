@@ -112,7 +112,94 @@ talks:
           abstract: "Abstract 4"
           pdf: "Slides 4"
 
-speakers:
+datascience:
+
+    - name: "Nina Balcan"
+      affil: "CMU"
+      site: "http://www.cs.cmu.edu/~ninamf/"
+      img: "speakers/nina-balcan.jpg"
+
+    - name: "Moses Charikar"
+      affil: "Stanford"
+      site: "https://profiles.stanford.edu/moses-charikar?tab=bio"
+      img: "speakers/moses-charikar.jpg"
+
+    - name: "Artur Czumaj" 
+      affil: "University of Warwich"
+      site: "http://www.dcs.warwick.ac.uk/~czumaj/"
+      img: "speakers/artur-czumaj.jpg"
+
+    - name: "Vitaly Feldman"
+      affil: "IBM Research"
+      site: "http://researcher.watson.ibm.com/researcher/view.php?person=us-vitaly"
+      img: "speakers/vitaly-feldman.jpg"
+
+    - name: "Amir Globerson"
+      affil: "Tel Aviv University"
+      site: "http://www.cs.tau.ac.il/~gamir/"
+      img: "speakers/amir-globerson.jpg"
+
+    - name: "Piotr Indyk"
+      affil: "MIT"
+      site: "https://people.csail.mit.edu/indyk/"
+      img: "speakers/piotr-indyk.jpg"
+
+    - name: "Prateek Jain"
+      affil: "Microsoft Research"
+      site: "https://www.microsoft.com/en-us/research/people/prajain/"
+      img: "speakers/prateek-jain.jpg"
+
+    - name: "Sham Kakade"
+      affil: "University of Washington"
+      site: "https://homes.cs.washington.edu/~sham/"
+      img: "speakers/sham-kakade.jpg"
+
+    - name: "Sanjeev Khanna"
+      affil: "University of Pennsylvania"
+      site: "http://www.cis.upenn.edu/~sanjeev/"
+      img: "speakers/sanjeev-khanna.jpg"
+
+    - name: "Robert Krauthgamer"
+      affil: "Weizmann"
+      site: "http://www.wisdom.weizmann.ac.il/~robi/"
+      img: "speakers/robi-krauthgamer.jpg"
+
+    - name: "Stefano Leonardi"
+      affil: "Sapienza University of Rome"
+      site: "http://wwwold.diag.uniroma1.it/~leon/wikka.php?wakka=HomePage"
+      img: "speakers/stefano-leonardi.jpg"
+
+    - name: "Yishay Mansour"
+      affil: "Tel Aviv University"
+      site: "https://www.tau.ac.il/~mansour/"
+      img: "speakers/yishay-mansour.jpg"
+
+    - name: "Ankur Moitra"
+      affil: "MIT"
+      site: "http://people.csail.mit.edu/moitra/"
+      img: "speakers/ankur-moitra.jpg"
+
+    - name: "Shai Shalev-Schwartz"
+      affil: "Hebrew University"
+      site: "http://www.cs.huji.ac.il/~shais/"
+      img: "speakers/shai-shalev-schwartz.jpg"
+
+    - name: "Nathan Srebro"
+      affil: "TTI"
+      site: "http://ttic.uchicago.edu/~nati/"
+      img: "speakers/nathan-srebro.jpg"
+    
+    - name: "Ronitt Rubinfeld"
+      affil: "MIT"
+      site: "https://people.csail.mit.edu/ronitt/"
+      img: "speakers/ronitt-rubinfeld.jpg"
+    
+    - name: "David Woodruff"
+      affil: "IBM Research"
+      site: "http://researcher.watson.ibm.com/researcher/view.php?person=us-dpwoodru"
+      img: "speakers/david-woodruff.jpg"
+
+security:
 
     - name: "David Basin"
       affil: "ETHZ"
