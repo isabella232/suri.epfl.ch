@@ -241,11 +241,6 @@ security:
       site: "https://www.edoeb.admin.ch/org/00125/index.html?lang=en"
       img: "speakers/adrian-lobsiger.jpg"
 
-    - name: "Adrian Perrig"
-      affil: "ETHZ"
-      site: "http://www.netsec.ethz.ch/people/aperrig/"
-      img: "speakers/adrian-perrig.jpg"
-
     - name: "Ewa Syta"
       affil: "Trinity College"
       site: "http://ewa.syta.us/"
