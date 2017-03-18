@@ -246,6 +246,11 @@ security:
       site: "http://ewa.syta.us/"
       img: "speakers/ewa-syta.jpg"
 
+    - name: "Laurent Vanbever"
+      affil: "ETHZ"
+      site: "http://vanbever.eu"
+      img: "speakers/laurent-vanbever.jpg"
+
     - name: "Dan Wallach"
       affil: "Rice"
       site: "https://www.cs.rice.edu/~dwallach/"
