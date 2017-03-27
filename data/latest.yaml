@@ -266,13 +266,29 @@ organizers:
       site: "https://people.epfl.ch/bryan.ford"
       img: "organizers/bryan-ford.jpg"
 
+    - name: "Philipp Jovanovic"
+      site: "https://people.epfl.ch/philipp.jovanovic"
+      img: "organizers/philipp-jovanovic.png"
+
     - name: "Mikhail Kapralov"
       site: "https://people.epfl.ch/michael.kapralov"
       img: "organizers/michael-kapralov.jpg"
 
-    - name: "Philipp Jovanovic"
-      site: "https://people.epfl.ch/philipp.jovanovic"
-      img: "organizers/philipp-jovanovic.png"
+    - name: "Pauline Raffestin"
+      site: "https://rgl.epfl.ch/people/praffestin"
+      img: "organizers/pauline-raffestin.jpg"
+
+    - name: "Jennifer Bachmann"
+      site: "https://people.epfl.ch/jennifer.bachmann-ona"
+      img: "organizers/jennifer-bachmann.jpg"
+
+    - name: "Ola Nils Anders Svensson"
+      site: "https://people.epfl.ch/ola.svensson"
+      img: "organizers/ola-svensson.jpg"
+
+    - name: "Chantal Schneeberger"
+      site: "https://people.epfl.ch/chantal.schneeberger"
+      img: "organizers/chantal-schneeberger.jpg"
 
     - name: "Jean-Pierre Hubaux"
       site: "https://people.epfl.ch/jean-pierre.hubaux"
@@ -281,12 +297,4 @@ organizers:
     - name: "Angela Devenoge"
       site: "https://people.epfl.ch/angela.devenoge"
       img: "organizers/angela-devenoge.jpg"
-
-    - name: "Ola Nils Anders Svensson"
-      site: "https://people.epfl.ch/ola.svensson"
-      img: "organizers/ola-svensson.jpg"
-
-    - name: "Pauline Raffestin"
-      site: "https://rgl.epfl.ch/people/praffestin"
-      img: "organizers/pauline-raffestin.jpg"
 
