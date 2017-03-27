@@ -125,7 +125,7 @@ datascience:
       img: "speakers/moses-charikar.jpg"
 
     - name: "Artur Czumaj" 
-      affil: "University of Warwich"
+      affil: "University of Warwick"
       site: "http://www.dcs.warwick.ac.uk/~czumaj/"
       img: "speakers/artur-czumaj.jpg"
 
