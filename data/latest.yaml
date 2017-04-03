@@ -184,6 +184,11 @@ datascience:
       site: "http://www.cs.huji.ac.il/~shais/"
       img: "speakers/shai-shalev-schwartz.jpg"
 
+    - name: "John Shawe-Taylor"
+      affil: "UCL"
+      site: "http://www0.cs.ucl.ac.uk/staff/J.Shawe-Taylor/"
+      img: "speakers/john-shawe-taylor.jpg"
+
     - name: "Nathan Srebro"
       affil: "TTI"
       site: "http://ttic.uchicago.edu/~nati/"
