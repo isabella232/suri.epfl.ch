@@ -114,11 +114,6 @@ talks:
 
 datascience:
 
-    - name: "Nina Balcan"
-      affil: "CMU"
-      site: "http://www.cs.cmu.edu/~ninamf/"
-      img: "speakers/nina-balcan.jpg"
-
     - name: "Moses Charikar"
       affil: "Stanford"
       site: "https://profiles.stanford.edu/moses-charikar?tab=bio"
