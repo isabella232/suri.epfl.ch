@@ -8,3 +8,4 @@ title = "The Summer Research Institute 2017"
 
 [params]
     program = "false"
+    registration = "false"

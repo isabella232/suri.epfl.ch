@@ -112,12 +112,18 @@
                             <header>
                                 <h2>Registration</h2>
                             </header>
+                            {{ if eq .Site.Params.registration "true" }}
                             <main>
                                 <p>In case you plan to attend SuRI 2017, please click the button below and fill out the form.</p>
                             </main>
                             <footer>
                                 <a href="https://goo.gl/forms/UQgKibHjV7kwPtKY2" class="button">Register</a>
                             </footer>
+                            {{ else }}
+                            <main>
+                                <p>Closed.</p>
+                            </main>
+                            {{ end }}
                         </div>
                     </section>
 
