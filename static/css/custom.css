@@ -32,6 +32,27 @@ strong {
     height: 100%;
 }
 
+.talk {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 90%;
+}
+
+.time {
+    margin-right: 20px;
+}
+
+.title {
+
+}
+
+.speaker {
+
+}
+
+
 
 @media screen and (min-width: 961px) {
     .background {

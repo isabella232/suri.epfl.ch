@@ -21,7 +21,7 @@
             <div class="{{ $r }}u {{ $t }}u$(mobile)">
         {{ end }}
 
-            <article class="item">
+            <article id="{{ $e.name }}" class="item">
                 <a href="{{ $e.site }}" class="image fit"><img src="{{ .Site.BaseURL }}img/{{ $e.img }}" alt="" /></a>
                 <header>
                     <h3><a href="{{ $e.site }}">{{ $e.name }} {{ if $e.affil }}<br>({{$e.affil}}){{end}}</a> </h3>

@@ -7,5 +7,5 @@ title = "The Summer Research Institute 2017"
     mail = "dedis@epfl.ch"
 
 [params]
-    program = "false"
+    program = "true"
     registration = "false"
