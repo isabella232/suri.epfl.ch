@@ -182,7 +182,7 @@ talks:
 
         - time: "10:15 – 11:15" 
           title: "tba"
-          speaker: "George Danezis"
+          speaker: "Ari Juels"
           abstract: 
           pdf: 
 
@@ -199,8 +199,8 @@ talks:
           pdf: 
 
         - time: "13:30 – 14:30" 
-          title: "Anonymity in the Bitcoin Peer-to-Peer Network"
-          speaker: "Giulia Fanti" 
+          title: "Lightning talks"
+          speaker:  
           abstract: 
           pdf: 
 
@@ -239,7 +239,7 @@ talks:
 
         - time: "10:15 – 11:15" 
           title: "tba"
-          speaker: "Ari Juels"
+          speaker: "George Danezis"
           abstract: 
           pdf: 
 
@@ -256,8 +256,8 @@ talks:
           pdf: 
 
         - time: "13:30 – 14:30" 
-          title: "Lightning talks"
-          speaker: 
+          title: "Anonymity in the Bitcoin Peer-to-Peer Network"
+          speaker: "Giulia Fanti"
           abstract: 
           pdf: 
 
