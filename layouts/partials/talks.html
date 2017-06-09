@@ -1,17 +1,23 @@
 {{ if eq .Site.Params.program "true" }} 
     {{ $path := $.Scratch.Get "path" }}
-    {{ range $path }}
+    {{ range $i, $p := $path }}
             <br>
             <article class="item">
             <header>
                 <h3><strong>{{ .date }}</strong></h3>
-            {{ range .entries }}
-            <div class="talk">
-                <span class="time">{{ .time }}</span>
-                <span class="title">{{ .title }}</span>
-                {{ if .speaker }}<span class="speaker"> – <a href="#{{ .speaker }}">{{ .speaker }}</a></span>{{ end }}
-            </div>
-            {{ end }}
+                {{ range $j, $entry := $p.entries }}
+                    <div class="talk">
+                        <span class="time">{{ .time }}</span>
+                        <span class="title">
+                        {{ if .speaker }}
+                            <a href="#talk-{{ $i }}{{ $j }}">{{ .title }}</a>
+                        {{ else }}
+                            {{ .title }}
+                        {{ end }}
+                        </span>
+                        {{ if .speaker }}<span class="speaker"> – <a href="#{{ .speaker }}">{{ .speaker }}</a></span>{{ end }}
+                    </div>
+                {{ end }}
             </header>
             </article>
         </ul>

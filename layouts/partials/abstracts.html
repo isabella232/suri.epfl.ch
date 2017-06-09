@@ -1,0 +1,25 @@
+{{ if eq .Site.Params.program "true" }} 
+    {{ $path := $.Scratch.Get "path" }}
+    {{ range $i, $p := $path }}
+            <br>
+            <article class="item">
+            <header>
+                <h3><strong>{{ .date }}</strong></h3>
+                {{ range $j, $entry := $p.entries }}
+                    {{ if .speaker }}
+                    <div id="talk-{{ $i }}{{ $j }}" class="abstract">
+                            <div class="meta">{{ .time }} &nbsp; {{ .title }} – {{ .speaker }}</div>
+                            <div class="body">
+                                {{ printf "abstracts/%s.html" .speaker | urlize | partial }}
+                            </div>
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </header>
+            </article>
+        </ul>
+    {{ end }}
+{{ else }}
+    <h4>To be announced</h4>
+{{ end }}
+

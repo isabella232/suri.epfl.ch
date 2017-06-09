@@ -6,61 +6,51 @@ talks:
         - time: "09:00 – 09:30" 
           title: "Welcome coffee"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "09:30 – 10:15" 
-          title: "tba"
+          title: "Beyond P vs. NP: Quadratic-Time Hardness For Big Data Problems"
           speaker: "Piotr Indyk"
-          abstract: 
           pdf: 
 
         - time: "10:30 – 11:15"
           title: "tba"
           speaker: "Vahab Mirrokni"
-          abstract: 
           pdf: 
 
         - time: "11:30 – 12:15"
           title: "On Successes and Failures of Deep Learning"
           speaker: "Shai Shalev-Schwartz"
-          abstract: "In the last 5 years, Deep Learning has become the go-to solution for a broad range of applications, often outperforming state-of-the-art. In the first part of the talk I will describe the success of deep learning for autonomous driving. The second part of the talk deals with our current theoretical understanding of deep learning. I will argue that in order to make progress, it is important, for both theoreticians and practitioners, to gain a deeper understanding of the difficulties and limitations associated with common approaches and algorithms. Finally, I will leverage the insight from failures of deep learning to present new results on the cruciality of convolutions for the success of gradient based deep learning."  
           pdf: 
 
         - time: "12:15 – 14:00" 
           title: "Lunch break"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "14:00 – 14:45" 
           title: "Data distribution dependent priors for stable learning"
           speaker: "John Shawe-Taylor"
-          abstract: 
           pdf: 
 
         - time: "14:50 – 15:35"
-          title: "tba"
-          speaker: "Prateek Jain"
-          abstract: 
+          title: "Robust Statistics, Revisited"
+          speaker: "Ankur Moitra"
           pdf: 
 
         - time: "15:35 – 16:00" 
           title: "Afternoon coffee"
           speaker:
-          abstract: 
           pdf: 
 
         - time: "16:00 – 16:45" 
           title: "tba"
           speaker: "David Woodruff"
-          abstract: 
           pdf: 
 
         - time: "17:00 – 18:30" 
           title: "Poster session"
           speaker:
-          abstract: 
           pdf:        
 
     - date: "15.06.2017"
@@ -69,61 +59,51 @@ talks:
         - time: "09:00 – 09:30" 
           title: "Welcome coffee"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "09:30 – 10:15" 
           title: "Approximate Matchings in Graph Streams and in the Simultaneous Communication Model"
           speaker: "Sanjeev Khanna"
-          abstract: 
           pdf: 
 
         - time: "10:30 – 11:15" 
           title: "Accelerating Stochastic Gradient Descent"
           speaker: "Sham Kakade"
-          abstract: "There is widespread sentiment that it is not possible to effectively utilize fast gradient methods (e.g. Nesterov's acceleration, conjugate gradient, heavy ball) for the purposes of stochastic optimization due to their instability and error accumulation, a notion made precise in dAspremont 2008 and Devolder, Glineur, and Nesterov 2014.  This work considers the use of 'fast gradient' methods for the special case of stochastic approximation for the least squares regression problem.  Our main result refutes the conventional wisdom by showing that acceleration can be made robust to statistical errors. In particular, this work introduces an accelerated stochastic gradient method that provably achieves the minimax optimal statistical risk faster than stochastic gradient descent. Critical to the analysis is a sharp characterization of accelerated stochastic gradient descent as a stochastic process.<br><br>We hope this characterization gives insights towards the broader question of designing simple and effective accelerated stochastic methods for more general convex and non-convex problems.  We will also discuss some preliminary experimental results in the non-convex setting."
           pdf: 
 
         - time: "11:30 – 12:15" 
           title: "Streaming Symmetric Norms via Measure Concentration"
           speaker: "Robert Krauthgamer"
-          abstract: 
           pdf: 
 
         - time: "12:15 – 14:00" 
           title: "Lunch break"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "14:00 – 14:45" 
           title: "Testing properties of distributions over big domains"
           speaker: "Ronitt Rubinfeld"
-          abstract: "We describe an emerging research direction regarding the complexity of testing global properties of discrete distributions, when given access to only a few samples from the distribution. Such properties might include testing if two distributions have small statistical distance, testing various independence properties, testing whether a distribution has a specific shape (such as monotone decreasing, k-modal, k-histogram, monotone hazard rate,...), and approximating the entropy.  We describe bounds for such testing problems whose sample complexities are sublinear in the size of the support."
           pdf: 
 
         - time: "14:50 – 15:35" 
           title: "The Online Team Formation Problem"
           speaker: "Stefano Leonardi"
-          abstract: "The design of mechanisms to create effective teams able to accomplish complex tasks is a key research challenge in online collaborative systems and online labor marketplaces. In the online team formation problem a sequence of tasks arrives in an online fashion, and each task requires a specific set of skills.  The goal is to schedule a new team upon arrival of each task, so that each team possesses all  skills required by the task. We consider two main aspects of this problem. We first study a model in which compatibility among potential team members is modelled by a social network. The goal is to schedule teams which have small communication overhead and  the workload of performing the tasks is balanced among people in the fairest possible way.  Next,  we consider the problem of assessing the practical benefits of outsourcing tasks versus the formation of teams of experts. At any point in time, there is a core team of hired workers. This team is dynamic: new members can be hired and existing members can be fired. Additionally, some parts of the arriving jobs can be outsourced and thus completed by non-team members. In considering these problems, we focus on the design of efficient online competitive cost-minimizing algorithms  and the primal-dual method.  The quality of the proposed solutions is evaluated both theoretically and on experiments performed on several examples of collaboration networks and data from large online labor marketplaces. (Joint work with Aris Anagnostopoulos, Carlos Castillo, Adriano Fazzone, Aris Gionis, and Evimaria Terzi.)"
           pdf: 
 
         - time: "15:35 – 16:00" 
           title: "Afternoon coffee"
           speaker:
-          abstract: 
           pdf: 
 
         - time: "16:00 – 16:45" 
           title: "Robust inference and local algorithms"
           speaker: "Yishay Mansour"
-          abstract: "Robust inference is an extension of probabilistic inference, where some of the observations may be adversarially corrupted.  We limit the adversarial corruption to a finite set of modification rules. We model robust inference as a zero-sum game between an adversary, who selects a modification rule, and a predictor, who wants to accurately predict the state of nature.<br><br>There are two variants of the model, one where the adversary needs to pick the modification rule in advance and one where the adversary can select the modification rule after observing the realized uncorrupted input.  For both settings we derive efficient near optimal policy runs in polynomial time.  Our efficient algorithms are based on methodologies for developing local computation algorithms.<br><br>We also consider a learning setting where the predictor receives a set of uncorrupted inputs and their classification.  The predictor needs to select a hypothesis, from a known set of hypotheses, and is tested on inputs which the adversary corrupts.  We show how to utilize an ERM oracle to derive a near optimal predictor strategy, namely, picking a hypothesis that minimizes the error on the corrupted test inputs.<br><br>Based on joint works with Uriel Feige, Aviad Rubinstein, Robert Schapire, Moshe Tennenholtz, Shai Vardi." 
           pdf: 
 
         - time: "16:45 – 17:30" 
           title: "Open problem session"
           speaker:
-          abstract: 
           pdf:        
 
     - date: "16.06.2017"
@@ -132,55 +112,46 @@ talks:
         - time: "09:00 – 09:30" 
           title: "Welcome coffee"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "09:30 – 10:15" 
           title: "Hashing-based-Estimators for Kernel Density in High Dimensions"
           speaker: "Moses Charikar"
-          abstract: "Given a set of points P and a (kernel) function K, the Kernel Density Estimate at a point x is defined as the average value of the kernel between the point x and every point y in P. We study the problem of designing a data structure that given a data set P and a kernel function, returns approximations to the kernel density of a query point in sublinear time. This problem and weighted versions arise as basic primitives in statistics (density estimation), machine learning (kernel methods) and scientific computing (physical simulations).<br><br>We introduce a class of unbiased estimators for kernel density using importance sampling, implemented through locality-sensitive hashing. We give general theorems bounding the variance of such estimators, that give rise to efficient data structures for estimating the kernel density in high dimensions for a variety of commonly used kernels. Our work is the first to provide data-structures with theoretical guarantees that improve upon simple random sampling in high dimensions.<br><br>Joint work with Paris Syminelakis."
           pdf: 
 
         - time: "10:30 – 11:15" 
           title: "Deep Learning with Gaussian Inputs and Weights"
           speaker: "Amir Globerson"
-          abstract: "Deep learning models are often successfully trained using gradient descent, despite the worst case hardness of the underlying non-convex optimization problem. The key question is then under what conditions can one prove that optimization will succeed. Here we provide, for the first time, a result of this kind for a one hidden layer ConvNet with no overlap and ReLU activation. For this architecture we show that learning is hard in the general case, but that when the input distribution is Gaussian, gradient descent converges to the global optimum in polynomial time. I will additionally discuss an alternative approach to sidestepping the complexity of deep learning optimization using improper learning with Gaussian priors on weights." 
           pdf: 
 
         - time: "11:30 – 12:15" 
-          title: "Robust Statistics, Revisited"
-          speaker: "Ankur Moitra"
-          abstract:
+          title: "Thresholding based methods for Robust Learning"
+          speaker: "Prateek Jain"
           pdf: 
 
         - time: "12:15 – 14:00" 
           title: "Lunch break"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "14:00 – 14:45" 
           title: "Understanding Generalization in Adaptive Data Analysis"
           speaker: "Vitaly Feldman"
-          abstract: 
           pdf: 
 
         - time: "14:50 – 15:35" 
           title: "Testing graph properties very efficiently"
           speaker: "Artur Czumaj"
-          abstract: "In this talk, we will survey recent advances on the problem of testing graph properties. We will consider a generic problem that for a given input graph G=(V,E) and a given graph property P (e.g., P may mean bipartiteness, 3-colorability, or planarity), we would like to determine if G satisfies property P or not. While the exact problem as defined here is often known to be computationally very hard (e.g., NP-hard, or even undecidable), we will focus on a simpler task, and we will want to distinguish between the input graphs that satisfy property P from the graphs that are “far away” from satisfying property P. Being “far away” means that one has to modify the input graph in more than, say, 1% of its representation to obtain a graph satisfying property P.<br><br>We will survey recent results in this area and show that for many basic properties, one can test them in this framework very efficiently, often in sublinear-time, and sometimes even in constant time."
           pdf: 
 
         - time: "15:35 – 16:00" 
           title: "Afternoon coffee"
           speaker:
-          abstract: 
           pdf: 
 
         - time: "16:00 – 16:45" 
           title: "Supervised Learning without Discrimination"
           speaker: "Nathan Srebro"
-          abstract: "As machine learning is increasingly being used in areas protected by anti discrimination law, or in other domains which are socially and morally sensitive, the problem of algorithmically measuring and avoiding prohibited discrimination in machine learning is pressing.  What does it mean for a predictor to not discriminate with respect to protected group (e.g. according to race, gender, etc)? We propose a notion of non-discrimination that can be measured statistically, used algorithmically, and avoids many of the pitfalls of previous definitions.  We further study what type of discrimination and non-discrimination can be identified with oblivious tests, which treat the predictor as an opaque black-box, and what different oblivious tests tell us about possible discrimination.<br><br>Joint work with Suriya Gunasekar, Mortiz Hardt, Mesrob Ohannessian, Eric Pierce and Blake Woodwoorth."
           pdf:
 
     - date: "19.06.17"
@@ -189,55 +160,46 @@ talks:
         - time: "09:30 – 10:15" 
           title: "Welcome coffee"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "10:15 – 11:15" 
           title: "tba"
           speaker: "Ari Juels"
-          abstract: 
           pdf: 
 
         - time: "11:15 – 12:15" 
           title: "tba"
           speaker: "Adrian Lobsiger"
-          abstract: 
           pdf: 
 
         - time: "12:15 – 13:30" 
           title: "Lunch break"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "13:30 – 14:30" 
           title: "Lightning talks"
           speaker:  
-          abstract: 
           pdf: 
 
         - time: "14:30 – 15:30" 
           title: "Scalable Bias-Resistant Distributed Randomness"
           speaker: "Ewa Syta"
-          abstract: "In my talk, I will present a joint work on bias-resistant public randomness recently published at IEEE Symposium on Security and Privacy. Bias-resistant public randomness is a critical component in many (distributed) protocols. Generating public randomness is hard, however, because active adversaries may behave dishonestly to bias public random choices toward their advantage. Existing solutions do not scale to hundreds or thousands of participants, as is needed in many decentralized systems. We proposed two large-scale distributed protocols, RandHound and RandHerd, which provide publicly-verifiable, unpredictable, and unbiasable randomness against Byzantine adversaries. RandHound relies on an untrusted client to divide a set of randomness servers into groups for scalability, and it depends on the pigeonhole principle to ensure output integrity, even for non-random, adversarial group choices. RandHerd implements an efficient, decentralized randomness beacon. RandHerd is structurally similar to a BFT protocol, but uses RandHound in a one-time setup to arrange participants into verifiably unbiased random secret-sharing groups, which then repeatedly produce random output at predefined intervals. Our prototype demonstrates that RandHound and RandHerd achieve good performance across hundreds of participants while retaining a low failure probability by properly selecting protocol parameters, such as a group size and secret-sharing threshold. For example, when sharding 512 nodes into groups of 32, our experiments show that RandHound can produce fresh random output after 240 seconds. RandHerd, after a setup phase of 260 seconds, is able to generate fresh random output in intervals of approximately 6 seconds. For this configuration, both protocols operate at a failure probability of at most 0.08% against a Byzantine adversary."
           pdf: 
 
         - time: "15:30 – 15:45" 
           title: "Afternoon coffee"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "15:45 – 16:45" 
           title: "Verified Secure Routing: The Verified Scion Project"
           speaker: "David Basin"
-          abstract: "Routing is at the heart of the Internet and has been a continual source of security problems since its expansion in the 1980s.  SCION is a new approach to the Internet, which offers dramatically better security properties than we currently have.  We describe a collaborative effort, the Verified Scion Project, at ETH Zurich that aims to verify Scion, going the full distance from high-level network-wide properties down to the code running on SCION routers.  We will explain the issues involved, the approach we take, the progress we have made, and  perspectives for the future.<br><br>The work reported on is joint work between three groups at ETH Zurich: my Information Security Group, the Network Security Group of Adrian Perrig, and the Programming Methodology Group of Peter Mueller." 
           pdf: 
 
         - time: "16:45 – 17:45" 
           title: "Verified Models and Reference Implementations for the TLS 1.3 Standard Candidate"
           speaker: "Bruno Blanchet"
-          abstract: "TLS 1.3 is the next version of the Transport Layer Security (TLS) protocol. Its clean-slate design is a reaction both to the increasing demand for low-latency HTTPS connections, and to a series of recent high-profile attacks on TLS.  The hope is that a fresh protocol with modern cryptography will prevent legacy problems; the danger is that it will expose new kinds of attacks, or reintroduce old flaws that were fixed in previous versions of TLS.  After 18 drafts, the protocol is nearing completion, and the working group has appealed to researchers to analyze the protocol before publication.  <br><br> We respond by presenting a comprehensive analysis of TLS 1.3 Draft-18: <br><br> (1) We present symbolic ProVerif models for various intermediate versions of TLS 1.3 and evaluate them against a rich class of attacks to reconstruct both known and previously unpublished vulnerabilities that influenced the current design of the protocol. In particular, we test whether TLS 1.3 prevents well-known attacks on TLS 1.2, such as Logjam or the Triple Handshake, even if it is run in parallel with TLS 1.2.  <br><br> (2) We present a computational CryptoVerif model for TLS 1.3 Draft-18 and mechanically prove its security under standard (strong) assumptions on its cryptographic primitives.  <br><br> (3) We present RefTLS, an interoperable implementation of TLS 1.0-1.3 and automatically analyze its protocol core by extracting a ProVerif model from its typed JavaScript code.  <br><br> The talk will mainly focus on (2) and briefly sketch (1) and (3)."
           pdf: 
 
     - date: "20.06.17"
@@ -246,55 +208,46 @@ talks:
         - time: "09:30 – 10:15" 
           title: "Welcome coffee"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "10:15 – 11:15" 
           title: "tba"
           speaker: "George Danezis"
-          abstract: 
           pdf: 
 
         - time: "11:15 – 12:15" 
           title: "Adversarial machine learning: the case of optimal attack strategies against recommendation systems"
           speaker: "Negar Kiyavash"
-          abstract: "Adversarial machine learning which lies in the intersection of learning and security aims to understand the effects of adversaries on learning algorithms and safe guard against them by design of protection mechanisms.<br><br>In this talk, we discuss the effect of strategic adversaries in recommendation systems. Such systems can be modeled using a multistage sequential prediction framework where at each stage, the recommendation system combines the predictions of set of experts about an unknown outcome with the aim of accurately predicting the outcome. The outcome is often the 'rating/interest' of a user in an item. Specifically, we study an adversarial setting in which one of the experts is malicious and his goal is to impose the maximum loss on the system. We show that in some settings the greedy policy of always reporting false prediction is asymptotically optimal for the malicious expert. Our result could be viewed as a generalization of the regret bound for learning from expert advice problem in the adversarial setting with respect to the best dynamic policy, rather than the conventional regret bound for the best action (static policy) in hindsight."
           pdf: 
 
         - time: "12:15 – 13:30" 
           title: "Lunch break"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "13:30 – 14:30" 
           title: "Anonymity in the Bitcoin Peer-to-Peer Network"
           speaker: "Giulia Fanti"
-          abstract: "Bitcoin enjoys a public perception of being a privacy-preserving financial system. In reality, Bitcoin has a number of privacy vulnerabilities, including the well-studied fact that transactions can be linked through the public blockchain. More recently, researchers have demonstrated deanonymization attacks that exploit a lower-layer weakness: the Bitcoin peer-to-peer (P2P) networking stack. In particular, the P2P network currently forwards content in a structured way that allows observers to deanonymize users by linking their transactions to the originating IP addresses. In this work, we first demonstrate that current protocols exhibit poor anonymity guarantees, both theoretically and in practice. Then, we consider a first-principles redesign of the P2P network, with the goal of providing strong, provable anonymity guarantees. We propose a simple networking policy called Dandelion, which achieves nearly-optimal anonymity guarantees at minimal cost to the network's utility."
           pdf: 
 
         - time: "14:30 – 15:30" 
           title: "Perfect Imitation and Secure Asymmetry for Decoy Routing Systems with Slitheen"
           speaker: "Ian Goldberg"
-          abstract: "As the capabilities of censors increase and their ability to perform more powerful deep-packet inspection techniques grows, more powerful systems are needed in turn to disguise user traffic and allow users under a censor's influence to access blocked content on the Internet.  Decoy routing is a censorship resistance technique that hides traffic under the guise of a HTTPS connection to a benign, non-censored 'decoy' site. However, existing techniques far from perfectly disguise themselves as a typical access of content on the decoy server.  Differences in latencies, packet sizes, and timings betray their use to a censor capable of performing basic packet and latency analysis.  <br><br> While many of the more recent decoy routing systems focus on deployability concerns, they do so at the cost of security, adding vulnerabilities to both passive and active attacks. We propose Slitheen, a decoy routing system that hides censored data inside actual traffic from the decoy sites, perfectly preserving the traffic characteristics.  Our system is secure against previously undefended passive attacks, and known active attacks. Further, we present our latest work demonstrating how to securely support route asymmetry in decoy routing systems like Slitheen, as well as a tiered deployment strategy to remove barriers to ISP participation in censorship-resistance deployments.  <br><br> This is joint work with Cecylia Bocovich."
           pdf: 
 
         - time: "15:30 – 15:45" 
           title: "Afternoon coffee"
           speaker: 
-          abstract: 
           pdf: 
 
         - time: "15:45 – 16:45" 
           title: "tba"
           speaker: "Dan Wallach"
-          abstract: 
           pdf: 
 
         - time: "16:45 – 17:45" 
           title: "Hijacking Bitcoin: Routing Attacks on Cryptocurrencies"
           speaker: "Laurent Vanbever"
-          abstract: "As the most successful cryptocurrency to date, Bitcoin constitutes a target of choice for attackers. In this talk, we will look at the impact and the practicality of performing Internet routing attacks against the cryptocurrency. We will show that the efficiency of routing manipulation and the significant centralization of Bitcoin in terms of mining and routing make two large-scale routing attacks possible today. The first attack consists in partitioning the Bitcoin network into two disjoint components of almost equal mining power by hijacking few (<100) BGP prefixes. The second attack consists in considerably delaying block propagation by interfering with few key Bitcoin messages in a stealth way. The potential damage to Bitcoin is worrying. Among others, such attacks could reduce miners’ revenue and render the network much more susceptible to double spending and selfish mining. Finally, we will finish the talk by describing some counter-measures, some of which can be deployed by Bitcoin today."
           pdf: 
 
 datascience:

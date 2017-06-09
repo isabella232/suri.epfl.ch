@@ -131,11 +131,23 @@
                     <section id="program" class="four">
                         <div class="container">
                             <header>
-                                <h2>Program</h2>
+                                <h2>Program (Overview)</h2>
                             </header>
                             <main>
                                 {{ $.Scratch.Add "path" $talks }}
                                 {{ partial "talks.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Abstracts -->
+                    <section id="abstracts" class="four">
+                        <div class="container">
+                            <header>
+                                <h2>Program (Detailed)</h2>
+                            </header>
+                            <main>
+                                {{ partial "abstracts.html" . }}
                             </main>
                         </div>
                     </section>
@@ -166,7 +178,6 @@
                             </main>
                         </div>
                     </section>
-
 
                 <!-- Organizers -->
                     <section id="organizers" class="four">
