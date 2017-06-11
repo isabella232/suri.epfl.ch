@@ -34,8 +34,8 @@ talks:
           pdf: 
 
         - time: "14:50 – 15:35"
-          title: "Robust Statistics, Revisited"
-          speaker: "Ankur Moitra"
+          title: "Streaming Symmetric Norms via Measure Concentration"
+          speaker: "Robert Krauthgamer"
           pdf: 
 
         - time: "15:35 – 16:00" 
@@ -44,7 +44,7 @@ talks:
           pdf: 
 
         - time: "16:00 – 16:45" 
-          title: "tba"
+          title: "Relative Error Tensor Low Rank Approximation"
           speaker: "David Woodruff"
           pdf: 
 
@@ -72,8 +72,8 @@ talks:
           pdf: 
 
         - time: "11:30 – 12:15" 
-          title: "Streaming Symmetric Norms via Measure Concentration"
-          speaker: "Robert Krauthgamer"
+          title: "Robust Statistics, Revisited"
+          speaker: "Ankur Moitra"
           pdf: 
 
         - time: "12:15 – 14:00" 
