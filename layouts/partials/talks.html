@@ -16,6 +16,7 @@
                         {{ end }}
                         </span>
                         {{ if .speaker }}<span class="speaker"> – <a href="#{{ .speaker }}">{{ .speaker }}</a></span>{{ end }}
+                        {{ if .pdf }}<span>&nbsp;<a href="{{ .pdf }}">[slides]</a></span> {{ end }}
                     </div>
                 {{ end }}
             </header>
