@@ -243,7 +243,7 @@ talks:
         - time: "15:45 – 16:45" 
           title: "STAR-Vote: A Secure, Transparent, Auditable, and Reliable Voting System"
           speaker: "Dan Wallach"
-          pdf: 
+          pdf: "https://drive.google.com/file/d/0BzzBI4Mvw-prZE43Slo1VDk1YXc/view"
 
         - time: "16:45 – 17:45" 
           title: "Hijacking Bitcoin: Routing Attacks on Cryptocurrencies"
