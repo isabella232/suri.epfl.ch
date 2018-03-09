@@ -185,7 +185,7 @@ talks:
         - time: "14:30 – 15:30" 
           title: "Scalable Bias-Resistant Distributed Randomness"
           speaker: "Ewa Syta"
-          pdf: "talks/randomness-syta.pdf"
+          pdf: "slides/2017/ewa-syta.pdf"
 
         - time: "15:30 – 16:00" 
           title: "Afternoon coffee + poster session"
@@ -195,12 +195,12 @@ talks:
         - time: "16:00 – 17:00" 
           title: "Verified Secure Routing: The Verified Scion Project"
           speaker: "David Basin"
-          pdf: "talks/routing-basin.pdf"
+          pdf: "slides/2017/david-basin.pdf"
 
         - time: "17:00 – 18:00" 
           title: "Verified Models and Reference Implementations for the TLS 1.3 Standard Candidate"
           speaker: "Bruno Blanchet"
-          pdf: "talks/tls-blanchet.pdf"
+          pdf: "slides/2017/bruno-blanchet.pdf"
 
     - date: "20.06.17"
       entries: 
@@ -228,12 +228,12 @@ talks:
         - time: "13:30 – 14:30" 
           title: "Anonymity in the Bitcoin Peer-to-Peer Network"
           speaker: "Giulia Fanti"
-          pdf: "talks/bitcoin-p2p-fanti.pdf"
+          pdf: "slides/2017/giulia-fanti.pdf"
 
         - time: "14:30 – 15:30" 
           title: "Perfect Imitation and Secure Asymmetry for Decoy Routing Systems with Slitheen"
           speaker: "Ian Goldberg"
-          pdf: "talks/slitheen-goldberg.pdf"
+          pdf: "slides/2017/ian-goldberg.pdf"
 
         - time: "15:30 – 15:45" 
           title: "Afternoon coffee"

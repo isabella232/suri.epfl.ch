@@ -1,5 +1,14 @@
 <!DOCTYPE HTML>
 <html>
+
+     <!-- Set some config and data file: suriyear.yaml -->
+    {{ $year := "2017" }}
+    {{ $.Scratch.Add "year" $year }}
+    {{ $talks := $.Site.Data.suri2017.talks }}
+    {{ $datascience:= $.Site.Data.suri2017.datascience }}
+    {{ $security:= $.Site.Data.suri2017.security }}
+    {{ $organizers := $.Site.Data.suri2017.organizers }}
+
     <head>
         <title>{{ .Site.Title }}</title>
         <meta charset="utf-8" />
@@ -13,11 +22,6 @@
     </head>
     <body>
 
-        <!-- Set data file: latest.yaml -->
-            {{ $talks := $.Site.Data.latest.talks }}
-            {{ $datascience:= $.Site.Data.latest.datascience }}
-            {{ $security:= $.Site.Data.latest.security }}
-            {{ $organizers := $.Site.Data.latest.organizers }}
 
         <!-- Header -->
             <div id="header">
@@ -31,7 +35,7 @@
                     <!-- Logo -->
                         <div id="logo">
                             <!--<span class="image avatar48"><img src="{{ .Site.BaseURL }}img/epfl-logo.png" alt="" /></span>-->
-                            <h1 id="title">{{ .Site.Title }}</h1>
+                            <h1 id="title">{{ .Site.Title }} {{ $year }}</h1>
                             <p>14.06.17 - 20.06.17</p>
                             <p>EPFL, BC 420</p>
                         </div>
@@ -72,7 +76,7 @@
                             <header>
                                 <h4>EPFL</h4>
                                 <h4>School of Computer and Communication Sciences</h4>
-                                <h2>{{ .Site.Title }}</h2>
+                                <h2>{{ .Site.Title }} {{ $year }}</h2>
                                 <p>14.06.17 - 20.06.17</p>
                             </header>
                         </div>
