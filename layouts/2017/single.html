@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+
+     <!-- Set some config and data file: suriyear.yaml -->
+    {{ $year := "2017" }}
+    {{ $.Scratch.Add "year" $year }}
+    {{ $talks := $.Site.Data.suri2017.talks }}
+    {{ $datascience:= $.Site.Data.suri2017.datascience }}
+    {{ $security:= $.Site.Data.suri2017.security }}
+    {{ $organizers := $.Site.Data.suri2017.organizers }}
+
+    <head>
+        <title>{{ .Site.Title }}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="{{ .Site.BaseURL }}css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="{{ .Site.BaseURL }}css/ie9.css" /><![endif]-->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css" />
+        <link rel="icon" type="image/png" href="https://static.epfl.ch/v0.22.18/favicon.png">
+    </head>
+    <body>
+
+
+        <!-- Header -->
+            <div id="header">
+
+                <div class="top">
+
+                    <div>
+                        <a href="{{ .Site.BaseURL }}"><img class="epfl-logo" src="{{ .Site.BaseURL }}img/logos/epfl-ic-logo.jpg"></a>
+                    </div>
+
+                    <!-- Logo -->
+                        <div id="logo">
+                            <!--<span class="image avatar48"><img src="{{ .Site.BaseURL }}img/epfl-logo.png" alt="" /></span>-->
+                            <h1 id="title">{{ .Site.Title }} {{ $year }}</h1>
+                            <p>14.06.17 - 20.06.17</p>
+                            <p>EPFL, BC 420</p>
+                        </div>
+
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Start</span></a></li>
+                                <li><a href="#overview" id="overview-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Overview</span></a></li>
+                                <li><a href="#registration" id="registration-link" class="skel-layers-ignoreHref"><span class="icon fa-pencil-square-o">Registration</span></a></li>
+                                <li><a href="#program" id="program-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Program</span></a></li>
+                                <li><a href="#speakers" id="speakers-link" class="skel-layers-ignoreHref"><span class="icon fa-users">Speakers</span></a></li>
+                                <li><a href="#organizers" id="organizers-link" class="skel-layers-ignoreHref"><span class="icon fa-institution">Organizers</span></a></li>
+                                <li><a href="#directions" id="directions-link" class="skel-layers-ignoreHref"><span class="icon fa-map-marker">Directions</span></a></li>
+                                <li><a href="#archive" id="archive-link" class="skel-layers-ignoreHref"><span class="icon fa-list">Archive</span></a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                        <ul class="icons">
+                            <li><a href="{{ .Site.Social.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="mailto:{{ .Site.Social.mail }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                </div>
+
+            </div>
+
+        <!-- Main -->
+            <div id="main">
+
+                <!-- Intro -->
+                    <section id="top" class="one dark cover" style="background-image: url('../img/covers/epfl-aerial-copy.jpg'); color: white">
+                        <div class="container">
+                            <header>
+                                <h4>EPFL</h4>
+                                <h4>School of Computer and Communication Sciences</h4>
+                                <h2>{{ .Site.Title }} {{ $year }}</h2>
+                                <p>14.06.17 - 20.06.17</p>
+                            </header>
+                        </div>
+                    </section>
+
+                <!-- Overview -->
+                    <section id="overview" class="two">
+                        <div class="container">
+                            <header>
+                                <h2>Overview</h2>
+                            </header>
+                            <main>
+                                <p>
+                                    The <strong>Summer Research Institute (SuRI)</strong> is an annual event that takes place at the 
+                                    <a href="http://ic.epfl.ch/">School of Computer and Communication Sciences</a> of the <a href="https://epfl.ch">École polytechnique fédérale de Lausanne</a>, Switzerland.
+                                    The workshop brings together renowned researchers and experts from academia and industry. 
+                                    It features a number of research talks by speakers from all around the world and is conducive to informal discussions and social activities. 
+                                    <!--In addition to the invited researchers, the audience includes primarily EPFL students, researchers and faculty members. -->
+                                    This year's edition of SuRI features two tracks: 
+                                    <ul>
+                                        <li><strong>Data Science (June 14 - 16, 2017)</strong></li>
+                                        <li><strong>Security and Privacy (June 19 - 20, 2017)</strong></li>
+                                    </ul>
+
+                                </p>
+                                <p>
+                                The event is <strong>open to everyone</strong> and attendance is <strong>free of charge</strong>.<br>
+                                For organisational reasons, however, we would kindly ask you to <strong>register below</strong>.
+                                </p>
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Registration -->
+                    <section id="registration" class="three">
+                        <div class="container">
+                            <header>
+                                <h2>Registration</h2>
+                            </header>
+                            {{ if eq .Site.Params.registration "true" }}
+                            <main>
+                                <p>In case you plan to attend SuRI 2017, please click the button below and fill out the form.</p>
+                            </main>
+                            <footer>
+                                <a href="https://goo.gl/forms/UQgKibHjV7kwPtKY2" class="button">Register</a>
+                            </footer>
+                            {{ else }}
+                            <main>
+                                <p>Closed.</p>
+                            </main>
+                            {{ end }}
+                        </div>
+                    </section>
+
+                <!-- Program -->
+                    <section id="program" class="four">
+                        <div class="container">
+                            <header>
+                                <h2>Program (Overview)</h2>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Add "path" $talks }}
+                                {{ partial "talks.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Abstracts -->
+                    <section id="abstracts" class="two">
+                        <div class="container">
+                            <header>
+                                <h2>Program (Detailed)</h2>
+                            </header>
+                            <main>
+                                {{ partial "abstracts.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Speakers -->
+                    <section id="speakers" class="three">
+                        <div class="container">
+                            <header>
+                                <h2>Speakers</h2>
+                                <h3>Data Science Track</h3>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Set "path" $datascience }}
+                                {{ partial "people.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                    <section id="speakers" class="four">
+                        <div class="container">
+                            <header>
+                                <h2>Speakers</h2>
+                                <h3>Security and Privacy Track</h3>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Set "path" $security }}
+                                {{ partial "people.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Organizers -->
+                    <section id="organizers" class="two">
+                        <div class="container">
+                            <header>
+                                <h2>Organizers</h2>
+                            </header>
+                            <main>
+                                {{ $.Scratch.Set "path" $organizers }}
+                                {{ partial "people.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Directions -->
+                    <section id="directions" class="three">
+                        <div class="container">
+                            <header>
+                                <h2>Directions</h2>
+                            </header>
+                            <main>
+                            <p>If you're flying in, <a href="http://www.gva.ch/en/desktopdefault.aspx">Genève-Cointrin</a> is the nearest international airport. By train, it takes ~45 minutes to reach Lausanne. Zürich Airport is about ~2.5 hours away by train. To get information on train schedules, please see the <a href="https://www.sbb.ch/en/">Swiss Rail website</a>.</p>
+                                <p>To reach the SuRI venue from the EPFL M1 metro station, please check the map below.</p>
+                                <div class="map-container">
+                                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12tAlTbKrjKHnIk6JUsRIfaOW8LE"></iframe>
+                                </div>
+                            </main>
+                        </div>
+                    </section>
+
+                <!-- Archive -->
+                    <section id="archive" class="four">
+                        <div class="container">
+                            <header>
+                                <h2>Archive</h2>
+                            </header>
+                            <main>
+                                {{ partial "past.html" . }}
+                            </main>
+                        </div>
+                    </section>
+
+
+                <!-- Final Image Section -->
+                    <section id="top" class="one dark cover background" style="background-image: url('../img/covers/rolex-center-dawn.jpg');">
+                        <div class="container">
+                            <p></p>
+                        </div>
+                    </section>
+
+            </div>
+
+
+        <!-- Footer -->
+            <div id="footer">
+
+                <!-- Copyright -->
+                    <ul class="copyright">
+                        <li>&copy; <a href="https://epfl.ch">EPFL</a> 2017. All rights reserved.</li>
+                        <li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>Created by <a href="mailto:philipp.jovanovic@epfl.ch">Philipp Jovanovic</a></li>
+                    </ul>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/jquery.scrolly.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/jquery.scrollzer.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/skel.min.js"></script>
+            <script src="{{ .Site.BaseURL }}js/util.js"></script>
+            <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/respond.min.js"></script><![endif]-->
+            <script src="{{ .Site.BaseURL }}js/main.js"></script>
+    </body>
+</html>

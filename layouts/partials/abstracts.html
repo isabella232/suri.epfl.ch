@@ -10,7 +10,7 @@
                         <div id="talk-{{ $i }}{{ $j }}" class="abstract">
                             <div class="meta">{{ .time }} &nbsp; {{ .title }} – {{ .speaker }}</div>
                             <div class="body">
-                                {{ $file := .speaker | urlize | printf "content/%s/abstracts/%s.md" ($.Scratch.Get "year") }}
+                                {{ $file := .speaker | urlize | printf "./content/%s/abstracts/%s.md" ($.Scratch.Get "year") }}
                                 {{ $file | readFile | markdownify }}
                             </div>
                         </div>
