@@ -3,7 +3,7 @@ DRAFT=epfl-dedis:~/www/
 SRC=public/
 
 server:
-	hugo server --buildDrafts --forceSyncStatic --verbose
+	hugo server --buildDrafts --forceSyncStatic --disableFastRender --verbose
 
 build:
 	hugo
