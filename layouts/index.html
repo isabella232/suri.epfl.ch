@@ -1,13 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 
-     <!-- Set some config and data file: suriyear.yaml -->
-    {{ $year := "2017" }}
+    {{ $config := $.Site.Data.suri2018 }}
+
+    {{ $year := $config.year }}
+    {{ $dates := $config.dates }}
+    {{ $talks := $config.talks }}
+    {{ $security:= $config.security }}
+    {{ $organizers := $config.organizers }}
+
     {{ $.Scratch.Add "year" $year }}
-    {{ $talks := $.Site.Data.suri2017.talks }}
-    {{ $datascience:= $.Site.Data.suri2017.datascience }}
-    {{ $security:= $.Site.Data.suri2017.security }}
-    {{ $organizers := $.Site.Data.suri2017.organizers }}
+    {{ $.Scratch.Add "program" $config.program }}
+    {{ $.Scratch.Add "abstracts" $config.abstracts }}
 
     <head>
         <title>{{ .Site.Title }}</title>
@@ -36,7 +40,7 @@
                         <div id="logo">
                             <!--<span class="image avatar48"><img src="{{ .Site.BaseURL }}img/epfl-logo.png" alt="" /></span>-->
                             <h1 id="title">{{ .Site.Title }} {{ $year }}</h1>
-                            <p>14.06.17 - 20.06.17</p>
+                            <p>{{ $dates }}</p>
                             <p>EPFL, BC 420</p>
                         </div>
 
@@ -77,7 +81,7 @@
                                 <h4>EPFL</h4>
                                 <h4>School of Computer and Communication Sciences</h4>
                                 <h2>{{ .Site.Title }} {{ $year }}</h2>
-                                <p>14.06.17 - 20.06.17</p>
+                                <p>{{ $dates }}</p>
                             </header>
                         </div>
                     </section>
@@ -95,22 +99,22 @@
                                     The workshop brings together renowned researchers and experts from academia and industry. 
                                     It features a number of research talks by speakers from all around the world and is conducive to informal discussions and social activities. 
                                     <!--In addition to the invited researchers, the audience includes primarily EPFL students, researchers and faculty members. -->
-                                    This year's edition of SuRI features two tracks: 
+                                    <!--This year's edition of SuRI features two tracks: 
                                     <ul>
                                         <li><strong>Data Science (June 14 - 16, 2017)</strong></li>
                                         <li><strong>Security and Privacy (June 19 - 20, 2017)</strong></li>
-                                    </ul>
+                                    </ul>-->
 
                                 </p>
                                 <p>
                                 The event is <strong>open to everyone</strong> and attendance is <strong>free of charge</strong>.<br>
-                                For organisational reasons, however, we would kindly ask you to <strong>register below</strong>.
                                 </p>
                             </main>
                         </div>
                     </section>
 
                 <!-- Registration -->
+                <!--
                     <section id="registration" class="three">
                         <div class="container">
                             <header>
@@ -130,6 +134,7 @@
                             {{ end }}
                         </div>
                     </section>
+                -->
 
                 <!-- Program -->
                     <section id="program" class="four">
@@ -157,24 +162,10 @@
                     </section>
 
                 <!-- Speakers -->
-                    <section id="speakers" class="three">
-                        <div class="container">
-                            <header>
-                                <h2>Speakers</h2>
-                                <h3>Data Science Track</h3>
-                            </header>
-                            <main>
-                                {{ $.Scratch.Set "path" $datascience }}
-                                {{ partial "people.html" . }}
-                            </main>
-                        </div>
-                    </section>
-
                     <section id="speakers" class="four">
                         <div class="container">
                             <header>
                                 <h2>Speakers</h2>
-                                <h3>Security and Privacy Track</h3>
                             </header>
                             <main>
                                 {{ $.Scratch.Set "path" $security }}

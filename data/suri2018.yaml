@@ -1,0 +1,172 @@
+year: "2018"
+dates: "18.06.18 - 19.06.18"
+program: "false"
+abstracts: "false"
+
+talks:
+
+    - date: "18.06.18"
+      entries: 
+
+        - time: "09:30 – 10:15" 
+          title: "Welcome coffee"
+          speaker: 
+          pdf: 
+
+        - time: "10:15 – 11:15" 
+          title: "tba"
+          speaker: 
+          pdf: 
+
+        - time: "11:15 – 12:15" 
+          title: "tba"
+          speaker: 
+          pdf: 
+
+        - time: "12:15 – 13:30" 
+          title: "Lunch break"
+          speaker: 
+          pdf: 
+
+        - time: "13:30 – 14:30" 
+          title: "Lightning talks"
+          speaker:  
+          pdf: 
+
+        - time: "14:30 – 15:30" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+        - time: "15:30 – 16:00" 
+          title: "Afternoon coffee + poster session"
+          speaker: 
+          pdf: 
+
+        - time: "16:00 – 17:00" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+        - time: "17:00 – 18:00" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+    - date: "19.06.18"
+      entries: 
+
+        - time: "09:30 – 10:15" 
+          title: "Welcome coffee"
+          speaker: 
+          pdf: 
+
+        - time: "10:15 – 11:15" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+        - time: "11:15 – 12:15" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+        - time: "12:15 – 13:30" 
+          title: "Lunch break"
+          speaker: 
+          pdf: 
+
+        - time: "13:30 – 14:30" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+        - time: "14:30 – 15:30" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+        - time: "15:30 – 15:45" 
+          title: "Afternoon coffee"
+          speaker: 
+          pdf: 
+
+        - time: "15:45 – 16:45" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+        - time: "16:45 – 17:45" 
+          title: "tba"
+          speaker:
+          pdf: 
+
+security:
+
+    - name: "Úlfar Erlingsson"
+      affil: "Google"
+      site: "https://research.google.com/pubs/ulfar.html"
+      img: "speakers/ulfar-erlingsson.jpg"
+
+    - name: "Matthew Green"
+      affil: "Johns Hopkins University"
+      site: "https://isi.jhu.edu/~mgreen/"
+      img: "speakers/matthew-green.jpg"
+
+    - name: "Nadia Heninger"
+      affil: "University of Pennsylvania"
+      site: "https://www.cis.upenn.edu/~nadiah/"
+      img: "speakers/nadia-heninger.png"
+
+    - name: "Ari Juels"
+      affil: "Cornell Tech"
+      site: "http://www.arijuels.com/"
+      img: "speakers/ari-juels.jpg"
+
+    - name: "Christof Paar"
+      affil: "Ruhr-Universität Bochum"
+      site: "https://www.emsec.rub.de/chair/_staff/christof-paar/"
+      img: "speakers/christof-paar.jpg"
+
+    - name: "Kenny Paterson"
+      affil: "Royal Holloway"
+      site: "http://www.isg.rhul.ac.uk/~kp/"
+      img: "speakers/kenny-paterson.jpg"
+
+    - name: "Tom Ristenpart"
+      affil: "Cornell Tech"
+      site: "https://rist.tech.cornell.edu/"
+      img: "speakers/tom-ristenpart.jpg"
+
+    - name: "Nick Sullivan"
+      affil: "Cloudflare"
+      site: "https://blog.cloudflare.com/author/nick-sullivan/"
+      img: "speakers/nick-sullivan.jpg"
+
+    - name: "Carol Waters"
+      affil: "Tow Center for Digital Journalism"
+      site: "https://towcenter.org/academics/carol-waters/"
+      img: "speakers/carol-waters.jpg"
+
+organizers:
+
+    - name: "Bryan Ford"
+      site: "https://people.epfl.ch/bryan.ford"
+      img: "organizers/bryan-ford.jpg"
+
+    - name: "Philipp Jovanovic"
+      site: "https://people.epfl.ch/philipp.jovanovic"
+      img: "organizers/philipp-jovanovic.png"
+
+    - name: "Carmela Troncoso"
+      site: "https://people.epfl.ch/carmela.troncoso"
+      img: "organizers/carmela-troncoso.jpg"
+
+    - name: "Jean-Pierre Hubaux"
+      site: "https://people.epfl.ch/jean-pierre.hubaux"
+      img: "organizers/jean-pierre-hubaux.jpg"
+
+    - name: "Angela Devenoge"
+      site: "https://people.epfl.ch/angela.devenoge"
+      img: "organizers/angela-devenoge.jpg"
+

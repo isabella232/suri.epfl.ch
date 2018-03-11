@@ -1,4 +1,4 @@
-{{ if eq .Site.Params.program "true" }} 
+{{ if eq ($.Scratch.Get "program") "true" }} 
     {{ $path := $.Scratch.Get "path" }}
     {{ range $i, $p := $path }}
             <br>
