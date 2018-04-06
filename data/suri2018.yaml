@@ -123,6 +123,16 @@ security:
       site: "http://www.arijuels.com/"
       img: "speakers/ari-juels.jpg"
 
+    - name: "Alan Mislove"
+      affil: "Northeastern University"
+      site: "https://mislove.org/"
+      img: "speakers/alan-mislove.jpg"
+
+    - name: "Neha Narula"
+      affil: "Digital Currency Initiative"
+      site: "http://nehanarula.org/"
+      img: "speakers/neha-narula.jpg"
+
     - name: "Christof Paar"
       affil: "Ruhr-Universität Bochum"
       site: "https://www.emsec.rub.de/chair/_staff/christof-paar/"
