@@ -129,7 +129,7 @@ security:
       img: "speakers/alan-mislove.jpg"
 
     - name: "Neha Narula"
-      affil: "Digital Currency Initiative"
+      affil: "MIT Digital Currency Initiative"
       site: "http://nehanarula.org/"
       img: "speakers/neha-narula.jpg"
 
