@@ -15,12 +15,12 @@ talks:
 
         - time: "10:15 – 11:15" 
           title: "tba"
-          speaker: 
+          speaker: "Matthew Green"
           pdf: 
 
         - time: "11:15 – 12:15" 
           title: "tba"
-          speaker: 
+          speaker: "Neha Narula"
           pdf: 
 
         - time: "12:15 – 13:30" 
@@ -29,28 +29,28 @@ talks:
           pdf: 
 
         - time: "13:30 – 14:30" 
-          title: "Lightning talks"
-          speaker:  
+          title: "tba"
+          speaker: "Carol Waters"
           pdf: 
 
         - time: "14:30 – 15:30" 
           title: "tba"
-          speaker:
+          speaker: "Ari Juels"
           pdf: 
 
         - time: "15:30 – 16:00" 
-          title: "Afternoon coffee + poster session"
+          title: "Afternoon coffee"
           speaker: 
           pdf: 
 
         - time: "16:00 – 17:00" 
           title: "tba"
-          speaker:
+          speaker: "Christof Paar"
           pdf: 
 
         - time: "17:00 – 18:00" 
           title: "tba"
-          speaker:
+          speaker: "Kenny Paterson"
           pdf: 
 
     - date: "19.06.18"
@@ -63,12 +63,12 @@ talks:
 
         - time: "10:15 – 11:15" 
           title: "tba"
-          speaker:
+          speaker: "Úlfar Erlingsson"
           pdf: 
 
         - time: "11:15 – 12:15" 
           title: "tba"
-          speaker:
+          speaker: "Alan Mislove"
           pdf: 
 
         - time: "12:15 – 13:30" 
@@ -78,27 +78,27 @@ talks:
 
         - time: "13:30 – 14:30" 
           title: "tba"
-          speaker:
+          speaker: "Nadia Heninger"
           pdf: 
 
         - time: "14:30 – 15:30" 
-          title: "tba"
+          title: "Student lightning talks"
           speaker:
           pdf: 
 
         - time: "15:30 – 15:45" 
-          title: "Afternoon coffee"
+          title: "Afternoon coffee + poster session"
           speaker: 
           pdf: 
 
         - time: "15:45 – 16:45" 
           title: "tba"
-          speaker:
+          speaker: "Tom Ristenpart"
           pdf: 
 
         - time: "16:45 – 17:45" 
           title: "tba"
-          speaker:
+          speaker: "Nick Sullivan"
           pdf: 
 
 security:
