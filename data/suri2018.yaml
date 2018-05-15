@@ -34,7 +34,7 @@ talks:
           pdf: 
 
         - time: "14:30 – 15:30" 
-          title: "tba"
+          title: "Enter the Hydra: Towards Principled Bug Bounties and Exploit-Resistant Smart Contracts"
           speaker: "Ari Juels"
           pdf: 
 
@@ -44,7 +44,7 @@ talks:
           pdf: 
 
         - time: "16:00 – 17:00" 
-          title: "tba"
+          title: "Why We Should Be Worried about Hardware Trojans"
           speaker: "Christof Paar"
           pdf: 
 
@@ -67,7 +67,7 @@ talks:
           pdf: 
 
         - time: "11:15 – 12:15" 
-          title: "tba"
+          title: "Privacy and Security Risks and Opportunities with PII-based Targeted Advertising"
           speaker: "Alan Mislove"
           pdf: 
 
@@ -97,7 +97,7 @@ talks:
           pdf: 
 
         - time: "16:45 – 17:45" 
-          title: "tba"
+          title: "The evolving architecture of the web and its impact on security, privacy, and latency"
           speaker: "Nick Sullivan"
           pdf: 
 
