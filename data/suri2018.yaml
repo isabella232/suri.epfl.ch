@@ -1,7 +1,7 @@
 year: "2018"
 dates: "18.06.18 - 19.06.18"
-program: "false"
-abstracts: "false"
+program: "true"
+abstracts: "true"
 
 talks:
 
@@ -44,12 +44,12 @@ talks:
           pdf: 
 
         - time: "16:00 – 17:00" 
-          title: "Why We Should Be Worried about Hardware Trojans"
+          title: "Why We Should Be Worried About Hardware Trojans"
           speaker: "Christof Paar"
           pdf: 
 
         - time: "17:00 – 18:00" 
-          title: "tba"
+          title: "Analysing Access Pattern and Volume Leakage from Range Queries on Encrypted Databases"
           speaker: "Kenny Paterson"
           pdf: 
 
@@ -62,8 +62,8 @@ talks:
           pdf: 
 
         - time: "10:15 – 11:15" 
-          title: "tba"
-          speaker: "Úlfar Erlingsson"
+          title: "Catching and Preventing Privacy Problems in Systems and Deep Neural Networks"
+          speaker: "Ulfar Erlingsson"
           pdf: 
 
         - time: "11:15 – 12:15" 
@@ -87,17 +87,17 @@ talks:
           pdf: 
 
         - time: "15:30 – 15:45" 
-          title: "Afternoon coffee + poster session"
+          title: "Afternoon coffee + student poster session"
           speaker: 
           pdf: 
 
         - time: "15:45 – 16:45" 
-          title: "tba"
+          title: "How to Avoid Invisible Salamanders: Message Franking in End-to-End Encryption"
           speaker: "Tom Ristenpart"
           pdf: 
 
         - time: "16:45 – 17:45" 
-          title: "The evolving architecture of the web and its impact on security, privacy, and latency"
+          title: "The Evolving Architecture of the Web and its Impact on Security, Privacy, and Latency"
           speaker: "Nick Sullivan"
           pdf: 
 
