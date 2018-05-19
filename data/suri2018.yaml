@@ -34,8 +34,8 @@ talks:
           pdf: 
 
         - time: "14:30 – 15:30" 
-          title: "Enter the Hydra: Towards Principled Bug Bounties and Exploit-Resistant Smart Contracts"
-          speaker: "Ari Juels"
+          title: "Random number generation failures from Netscape to DUHK"
+          speaker: "Nadia Heninger"
           pdf: 
 
         - time: "15:30 – 16:00" 
@@ -77,8 +77,8 @@ talks:
           pdf: 
 
         - time: "13:30 – 14:30" 
-          title: "tba"
-          speaker: "Nadia Heninger"
+          title: "Enter the Hydra: Towards Principled Bug Bounties and Exploit-Resistant Smart Contracts"
+          speaker: "Ari Juels"
           pdf: 
 
         - time: "14:30 – 15:30" 
