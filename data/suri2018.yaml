@@ -113,6 +113,11 @@ security:
       site: "https://isi.jhu.edu/~mgreen/"
       img: "speakers/matthew-green.jpg"
 
+    - name: "Harry Halpin"
+      affil: "Inria de Paris"
+      site: "http://www.ibiblio.org/hhalpin/"
+      img: "speakers/harry-halpin.png"
+
     - name: "Nadia Heninger"
       affil: "University of Pennsylvania"
       site: "https://www.cis.upenn.edu/~nadiah/"
@@ -153,10 +158,6 @@ security:
       site: "https://blog.cloudflare.com/author/nick-sullivan/"
       img: "speakers/nick-sullivan.jpg"
 
-    - name: "Harry Halpin"
-      affil: "Inria de Paris"
-      site: "http://www.ibiblio.org/hhalpin/"
-      img: "speakers/harry-halpin.png"
 
 organizers:
 
