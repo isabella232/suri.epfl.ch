@@ -14,13 +14,13 @@ talks:
           pdf: 
 
         - time: "10:15 – 11:15" 
-          title: "tba"
-          speaker: "Matthew Green"
+          title: "Enter the Hydra: Towards Principled Bug Bounties and Exploit-Resistant Smart Contracts"
+          speaker: "Ari Juels"
           pdf: 
 
         - time: "11:15 – 12:15" 
-          title: "tba"
-          speaker: "Neha Narula"
+          title: "Beyond PGP and Signal: The Challenge of Decentralization for Message Layer Security at the IETF"
+          speaker: "Harry Halpin"
           pdf: 
 
         - time: "12:15 – 13:30" 
@@ -29,13 +29,13 @@ talks:
           pdf: 
 
         - time: "13:30 – 14:30" 
-          title: "Beyond PGP and Signal: The Challenge of Decentralization for Message Layer Security at the IETF"
-          speaker: "Harry Halpin"
+          title: "Random number generation failures from Netscape to DUHK"
+          speaker: "Nadia Heninger"
           pdf: 
 
         - time: "14:30 – 15:30" 
-          title: "Random number generation failures from Netscape to DUHK"
-          speaker: "Nadia Heninger"
+          title: "tba"
+          speaker: "Petar Tsankov"
           pdf: 
 
         - time: "15:30 – 16:00" 
@@ -77,8 +77,8 @@ talks:
           pdf: 
 
         - time: "13:30 – 14:30" 
-          title: "Enter the Hydra: Towards Principled Bug Bounties and Exploit-Resistant Smart Contracts"
-          speaker: "Ari Juels"
+          title: "Why are Businesses Slow to Adopt PETs? Differential Privacy as a Case Study"
+          speaker: "Theresa Stadler"
           pdf: 
 
         - time: "14:30 – 15:30" 
@@ -108,11 +108,6 @@ security:
       site: "https://research.google.com/pubs/ulfar.html"
       img: "speakers/ulfar-erlingsson.jpg"
 
-    - name: "Matthew Green"
-      affil: "Johns Hopkins University"
-      site: "https://isi.jhu.edu/~mgreen/"
-      img: "speakers/matthew-green.jpg"
-
     - name: "Harry Halpin"
       affil: "Inria de Paris"
       site: "http://www.ibiblio.org/hhalpin/"
@@ -133,11 +128,6 @@ security:
       site: "https://mislove.org/"
       img: "speakers/alan-mislove.jpg"
 
-    - name: "Neha Narula"
-      affil: "MIT Digital Currency Initiative"
-      site: "http://nehanarula.org/"
-      img: "speakers/neha-narula.jpg"
-
     - name: "Christof Paar"
       affil: "Ruhr-Universität Bochum"
       site: "https://www.emsec.rub.de/chair/_staff/christof-paar/"
@@ -153,10 +143,20 @@ security:
       site: "https://rist.tech.cornell.edu/"
       img: "speakers/tom-ristenpart.jpg"
 
+    - name: "Theresa Stadler"
+      affil: "Privitar"
+      site: "https://www.privitar.com"
+      img: "speakers/theresa-stadler.jpg"
+
     - name: "Nick Sullivan"
       affil: "Cloudflare"
       site: "https://blog.cloudflare.com/author/nick-sullivan/"
       img: "speakers/nick-sullivan.jpg"
+
+    - name: "Petar Tsankov"
+      affil: "ETHZ / ChainSecurity"
+      site: "http://www.ptsankov.com"
+      img: "speakers/petar-tsankov.png"
 
 
 organizers:
