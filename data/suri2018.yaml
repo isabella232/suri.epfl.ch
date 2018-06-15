@@ -34,7 +34,7 @@ talks:
           pdf: 
 
         - time: "14:30 – 15:30" 
-          title: "tba"
+          title: "Securify: Practical Security Analysis of Smart Contracts"
           speaker: "Petar Tsankov"
           pdf: 
 
@@ -77,7 +77,7 @@ talks:
           pdf: 
 
         - time: "13:30 – 14:30" 
-          title: "Why are Businesses Slow to Adopt PETs? Differential Privacy as a Case Study"
+          title: "Why are Organisations Slow to Adopt PETs? Differential Privacy as a Case Study"
           speaker: "Theresa Stadler"
           pdf: 
 
