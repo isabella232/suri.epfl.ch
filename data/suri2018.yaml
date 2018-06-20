@@ -36,7 +36,7 @@ talks:
         - time: "14:30 – 15:30" 
           title: "Securify: Practical Security Analysis of Smart Contracts"
           speaker: "Petar Tsankov"
-          pdf: 
+          pdf: "../slides/2018/petar-tsankov.pdf"
 
         - time: "15:30 – 16:00" 
           title: "Afternoon coffee"
@@ -46,7 +46,7 @@ talks:
         - time: "16:00 – 17:00" 
           title: "Why We Should Be Worried About Hardware Trojans"
           speaker: "Christof Paar"
-          pdf: 
+          pdf: "../slides/2018/christof-paar.pdf"
 
         - time: "17:00 – 18:00" 
           title: "Analysing Access Pattern and Volume Leakage from Range Queries on Encrypted Databases"
