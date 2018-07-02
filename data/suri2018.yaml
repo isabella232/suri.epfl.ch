@@ -79,7 +79,7 @@ talks:
         - time: "13:30 – 14:30" 
           title: "Why are Organisations Slow to Adopt PETs? Differential Privacy as a Case Study"
           speaker: "Theresa Stadler"
-          pdf: 
+          pdf: "../slides/2018/theresa-stadler.pdf"
 
         - time: "14:30 – 15:30" 
           title: "Student lightning talks"
