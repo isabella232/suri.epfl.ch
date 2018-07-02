@@ -16,7 +16,7 @@ talks:
         - time: "10:15 – 11:15" 
           title: "Enter the Hydra: Towards Principled Bug Bounties and Exploit-Resistant Smart Contracts"
           speaker: "Ari Juels"
-          pdf: 
+          pdf: "../slides/2018/ari-juels.pdf"
 
         - time: "11:15 – 12:15" 
           title: "Beyond PGP and Signal: The Challenge of Decentralization for Message Layer Security at the IETF"
