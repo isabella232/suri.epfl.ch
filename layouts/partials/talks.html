@@ -16,8 +16,11 @@
                         {{ end }}
                         </span>
                         {{ if .speaker }}<span class="speaker"> – <a href="#{{ .speaker }}">{{ .speaker }}</a></span>{{ end }}
-                        {{ if .pdf }}
-                            <span>&nbsp;<a href="{{ .pdf }}">[slides]</a></span> 
+                        {{ if .slides }}
+                            <span>&nbsp;&nbsp;<a class="icon fa-file-o" href="{{ .slides }}"></a></span> 
+                        {{ end }}
+                        {{ if .video }}
+                            <span>&nbsp;&nbsp;<a class="icon fa-youtube-play" href="{{ .video }}"></a></span> 
                         {{ end }}
                     </div>
                 {{ end }}

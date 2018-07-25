@@ -11,52 +11,52 @@ talks:
         - time: "09:00 – 09:30" 
           title: "Welcome coffee"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "09:30 – 10:15" 
           title: "Beyond P vs. NP: Quadratic-Time Hardness For Big Data Problems"
           speaker: "Piotr Indyk"
-          pdf: 
+          slides: 
 
         - time: "10:30 – 11:15"
           title: "Composable Core-sets for Distributed Optimization: From Submodularity to Feature Selection"
           speaker: "Vahab Mirrokni"
-          pdf: 
+          slides: 
 
         - time: "11:30 – 12:15"
           title: "On Successes and Failures of Deep Learning"
           speaker: "Shai Shalev-Schwartz"
-          pdf: 
+          slides: 
 
         - time: "12:15 – 14:00" 
           title: "Lunch break"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "14:00 – 14:45" 
           title: "Data distribution dependent priors for stable learning"
           speaker: "John Shawe-Taylor"
-          pdf: 
+          slides: 
 
         - time: "14:50 – 15:35"
           title: "Streaming Symmetric Norms via Measure Concentration"
           speaker: "Robert Krauthgamer"
-          pdf: 
+          slides: 
 
         - time: "15:35 – 16:00" 
           title: "Afternoon coffee"
           speaker:
-          pdf: 
+          slides: 
 
         - time: "16:00 – 16:45" 
           title: "Relative Error Tensor Low Rank Approximation"
           speaker: "David Woodruff"
-          pdf: 
+          slides: 
 
         - time: "17:00 – 18:30" 
           title: "Poster session"
           speaker:
-          pdf:        
+          slides:        
 
     - date: "15.06.2017"
       entries: 
@@ -64,52 +64,52 @@ talks:
         - time: "09:00 – 09:30" 
           title: "Welcome coffee"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "09:30 – 10:15" 
           title: "Approximate Matchings in Graph Streams and in the Simultaneous Communication Model"
           speaker: "Sanjeev Khanna"
-          pdf: 
+          slides: 
 
         - time: "10:30 – 11:15" 
           title: "Accelerating Stochastic Gradient Descent"
           speaker: "Sham Kakade"
-          pdf: 
+          slides: 
 
         - time: "11:30 – 12:15" 
           title: "Robust Statistics, Revisited"
           speaker: "Ankur Moitra"
-          pdf: 
+          slides: 
 
         - time: "12:15 – 14:00" 
           title: "Lunch break"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "14:00 – 14:45" 
           title: "Testing properties of distributions over big domains"
           speaker: "Ronitt Rubinfeld"
-          pdf: 
+          slides: 
 
         - time: "14:50 – 15:35" 
           title: "The Online Team Formation Problem"
           speaker: "Stefano Leonardi"
-          pdf: 
+          slides: 
 
         - time: "15:35 – 16:00" 
           title: "Afternoon coffee"
           speaker:
-          pdf: 
+          slides: 
 
         - time: "16:00 – 16:45" 
           title: "Robust inference and local algorithms"
           speaker: "Yishay Mansour"
-          pdf: 
+          slides: 
 
         - time: "16:45 – 17:30" 
           title: "Open problem session"
           speaker:
-          pdf:        
+          slides:        
 
     - date: "16.06.2017"
       entries: 
@@ -117,47 +117,47 @@ talks:
         - time: "09:00 – 09:30" 
           title: "Welcome coffee"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "09:30 – 10:15" 
           title: "Hashing-based-Estimators for Kernel Density in High Dimensions"
           speaker: "Moses Charikar"
-          pdf: 
+          slides: 
 
         - time: "10:30 – 11:15" 
           title: "Deep Learning with Gaussian Inputs and Weights"
           speaker: "Amir Globerson"
-          pdf: 
+          slides: 
 
         - time: "11:30 – 12:15" 
           title: "Thresholding based methods for Robust Learning"
           speaker: "Prateek Jain"
-          pdf: 
+          slides: 
 
         - time: "12:15 – 14:00" 
           title: "Lunch break"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "14:00 – 14:45" 
           title: "Understanding Generalization in Adaptive Data Analysis"
           speaker: "Vitaly Feldman"
-          pdf: 
+          slides: 
 
         - time: "14:50 – 15:35" 
           title: "Testing graph properties very efficiently"
           speaker: "Artur Czumaj"
-          pdf: 
+          slides: 
 
         - time: "15:35 – 16:00" 
           title: "Afternoon coffee"
           speaker:
-          pdf: 
+          slides: 
 
         - time: "16:00 – 16:45" 
           title: "Supervised Learning without Discrimination"
           speaker: "Nathan Srebro"
-          pdf:
+          slides:
 
     - date: "19.06.17"
       entries: 
@@ -165,47 +165,47 @@ talks:
         - time: "09:30 – 10:15" 
           title: "Welcome coffee"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "10:15 – 11:15" 
           title: "Solidus: Strong Confidentiality and Transparency for Blockchain Transactions"
           speaker: "Ari Juels"
-          pdf: "https://drive.google.com/file/d/0B0fGmWIFTOYbRGQzVmxQMWxwQzQ/view?usp=sharing"
+          slides: "https://drive.google.com/file/d/0B0fGmWIFTOYbRGQzVmxQMWxwQzQ/view?usp=sharing"
 
         - time: "11:15 – 12:15" 
           title: "Artificial Intelligence and the Rule of Law"
           speaker: "Adrian Lobsiger"
-          pdf: 
+          slides: 
 
         - time: "12:15 – 13:30" 
           title: "Lunch break"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "13:30 – 14:30" 
           title: "Lightning talks"
           speaker:  
-          pdf: 
+          slides: 
 
         - time: "14:30 – 15:30" 
           title: "Scalable Bias-Resistant Distributed Randomness"
           speaker: "Ewa Syta"
-          pdf: "../slides/2017/ewa-syta.pdf"
+          slides: "../slides/2017/ewa-syta.pdf"
 
         - time: "15:30 – 16:00" 
           title: "Afternoon coffee + poster session"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "16:00 – 17:00" 
           title: "Verified Secure Routing: The Verified Scion Project"
           speaker: "David Basin"
-          pdf: "../slides/2017/david-basin.pdf"
+          slides: "../slides/2017/david-basin.pdf"
 
         - time: "17:00 – 18:00" 
           title: "Verified Models and Reference Implementations for the TLS 1.3 Standard Candidate"
           speaker: "Bruno Blanchet"
-          pdf: "../slides/2017/bruno-blanchet.pdf"
+          slides: "../slides/2017/bruno-blanchet.pdf"
 
     - date: "20.06.17"
       entries: 
@@ -213,47 +213,47 @@ talks:
         - time: "09:30 – 10:15" 
           title: "Welcome coffee"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "10:15 – 11:15" 
           title: "Foiling on-line surveillance: new developments in anonymous communications and their applications"
           speaker: "George Danezis"
-          pdf: 
+          slides: 
 
         - time: "11:15 – 12:15" 
           title: "Adversarial machine learning: the case of optimal attack strategies against recommendation systems"
           speaker: "Negar Kiyavash"
-          pdf: 
+          slides: 
 
         - time: "12:15 – 13:30" 
           title: "Lunch break"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "13:30 – 14:30" 
           title: "Anonymity in the Bitcoin Peer-to-Peer Network"
           speaker: "Giulia Fanti"
-          pdf: "../slides/2017/giulia-fanti.pdf"
+          slides: "../slides/2017/giulia-fanti.pdf"
 
         - time: "14:30 – 15:30" 
           title: "Perfect Imitation and Secure Asymmetry for Decoy Routing Systems with Slitheen"
           speaker: "Ian Goldberg"
-          pdf: "../slides/2017/ian-goldberg.pdf"
+          slides: "../slides/2017/ian-goldberg.pdf"
 
         - time: "15:30 – 15:45" 
           title: "Afternoon coffee"
           speaker: 
-          pdf: 
+          slides: 
 
         - time: "15:45 – 16:45" 
           title: "STAR-Vote: A Secure, Transparent, Auditable, and Reliable Voting System"
           speaker: "Dan Wallach"
-          pdf: "https://drive.google.com/file/d/0BzzBI4Mvw-prZE43Slo1VDk1YXc/view"
+          slides: "https://drive.google.com/file/d/0BzzBI4Mvw-prZE43Slo1VDk1YXc/view"
 
         - time: "16:45 – 17:45" 
           title: "Hijacking Bitcoin: Routing Attacks on Cryptocurrencies"
           speaker: "Laurent Vanbever"
-          pdf: 
+          slides: 
 
 datascience:
 
