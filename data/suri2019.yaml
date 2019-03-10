@@ -142,7 +142,7 @@ security:
       img: "speakers/the-grugq.png"
 
     - name: "Sinisa Matetic"
-      affil: "Swiss Sign"
+      affil: "SwissSign"
       site: "http://www.syssec.ethz.ch/people/sinisa.html"
       img: "speakers/sinisa-matetic.jpg"
 
