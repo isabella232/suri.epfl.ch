@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 
-    {{ $config := $.Site.Data.suri2018 }}
+    {{ $config := $.Site.Data.suri2019 }}
 
     {{ $year := $config.year }}
     {{ $dates := $config.dates }}
@@ -108,13 +108,11 @@
                                 </p>
                                 <p>
                                 The event is <strong>open to everyone</strong> and attendance is <strong>free of charge</strong>.<br>
-                                </p>
-                                <p>
-                                In case you plan to attend SuRI 2018, please register to facilitate the event's organization.
+                                In case you plan to attend SuRI {{ $year }}, please register to facilitate the event's organization.
                                 </p>
                             </main>
                             <footer>
-                                <a href="https://goo.gl/forms/CsHDINbsWmQp9CdO2" class="button">Register</a>
+                                <a href="https://goo.gl/forms/eHdghC9tEeSwfyqd2" class="button">Register</a>
                             </footer>
                         </div>
                     </section>
@@ -237,7 +235,7 @@
 
                 <!-- Copyright -->
                     <ul class="copyright">
-                        <li>&copy; <a href="https://epfl.ch">EPFL</a> 2017. All rights reserved.</li>
+                        <li>&copy; <a href="https://epfl.ch">EPFL</a> {{ $year }}. All rights reserved.</li>
                         <li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
                         <li>Created by <a href="mailto:philipp.jovanovic@epfl.ch">Philipp Jovanovic</a></li>
                     </ul>
