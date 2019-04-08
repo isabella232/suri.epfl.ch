@@ -121,11 +121,6 @@ talks:
 
 security:
 
-    - name: "Sadia Afroz"
-      affil: "ICSI/Berkeley"
-      site: "https://www1.icsi.berkeley.edu/~sadia/"
-      img: "speakers/sadia-afroz.jpg"
-
     - name: "Dennis Andriesse"
       affil: "VU Amsterdam"
       site: "https://syssec.mistakenot.net/"
@@ -136,10 +131,15 @@ security:
       site: "http://www.cs.yale.edu/homes/jf/"
       img: "speakers/joan-feigenbaum.jpg"
 
-    - name: "The Grugq"
+    - name: "Thaddeus Grugq"
       affil: "Comae Technologies"
       site: "https://medium.com/@thegrugq"
       img: "speakers/the-grugq.png"
+
+    - name: "Katharina Krombholz"
+      affil: "CISPA"
+      site: "https://cispa.saarland/de/people/katharina.krombholz/"
+      img: "speakers/katharina-krombholz.jpg"
 
     - name: "Sinisa Matetic"
       affil: "SwissSign"
