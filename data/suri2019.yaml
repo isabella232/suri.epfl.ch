@@ -141,6 +141,11 @@ security:
       site: "https://cispa.saarland/de/people/katharina.krombholz/"
       img: "speakers/katharina-krombholz.jpg"
 
+    - name: "Dimitar Jetchev"
+      affil: "inpher"
+      site: "https://www.inpher.io"
+      img: "speakers/dimitar-jetchev.png"
+
     - name: "Sinisa Matetic"
       affil: "SwissSign"
       site: "https://www.swisssign.com"
@@ -150,6 +155,11 @@ security:
       affil: "Columbia Journalism School"
       site: "https://journalism.columbia.edu/faculty/susan-mcgregor"
       img: "speakers/susan-mcgregor.png"
+
+    - name: "James Mickens"
+      affil: "Harvard University"
+      site: "https://mickens.seas.harvard.edu/"
+      img: "speakers/james-mickens.png"
 
     - name: "Mariana Raykova"
       affil: "Google"
