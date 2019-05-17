@@ -1,123 +1,147 @@
 year: "2019"
 dates: "13.06.19 - 14.06.19"
-program: "false"
-abstracts: "false"
+program: "true"
+abstracts: "true"
 
 talks:
 
     - date: "13.06.19"
       entries: 
 
-        - time: "09:30 – 10:15" 
+        - time: "08:30 – 09:00" 
           title: "Welcome coffee"
           speaker: 
           slides: 
           video:
 
-        - time: "10:15 – 11:15" 
-          title: "Enter the Hydra: Towards Principled Bug Bounties and Exploit-Resistant Smart Contracts"
-          speaker: "Ari Juels"
-          slides: "../slides/2018/ari-juels.pdf"
-          video: "https://www.youtube.com/watch?v=WGuu6BckaVQ&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
-
-        - time: "11:15 – 12:15" 
-          title: "Beyond PGP and Signal: The Challenge of Decentralization for Message Layer Security at the IETF"
-          speaker: "Harry Halpin"
+        - time: "09:00 – 10:00" 
+          title: "tba"
+          speaker: "Angela Sasse" 
           slides: 
-          video: "https://www.youtube.com/watch?v=xFggRVlBcFU&index=2&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+          video:
 
-        - time: "12:15 – 13:30" 
-          title: "Lunch break"
+        - time: "10:00 – 11:00" 
+          title: "A User-Centric Approach to Securing the HTTPS Ecosystem"
+          speaker: "Katharina Krombholz"
+          slides: 
+          video: 
+
+        - time: "11:00 – 11:30" 
+          title: "Coffee break"
+          speaker: 
+          slides: 
+          video:
+
+        - time: "11:30 – 12:30" 
+          title: "The Emergence and Implementation of Electronic Identity (E-ID) Systems"
+          speaker: "Sinisa Matetic"
+          slides: 
+          video:
+
+        - time: "12:30 – 13:30" 
+          title: "Lunch"
           speaker: 
           slides: 
           video:
 
         - time: "13:30 – 14:30" 
-          title: "Random number generation failures from Netscape to DUHK"
-          speaker: "Nadia Heninger"
-          slides: "../slides/2018/nadia-heninger.pdf"
-          video: "https://www.youtube.com/watch?v=fC6QySrAd7U&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+          title: "Exploiting and Mitigating the Rowhammer Vulnerability"
+          speaker: "Dennis Andriesse"
+          slides: 
+          video: 
 
         - time: "14:30 – 15:30" 
-          title: "Securify: Practical Security Analysis of Smart Contracts"
-          speaker: "Petar Tsankov"
-          slides: "../slides/2018/petar-tsankov.pdf"
-          video: "https://www.youtube.com/watch?v=YNbj_JElzuc&index=5&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+          title: "tba"
+          speaker: "Thaddeus Grugq"
+          slides: 
+          video: 
 
         - time: "15:30 – 16:00" 
-          title: "Afternoon coffee"
+          title: "Coffee break"
           speaker: 
           slides: 
           video:
 
         - time: "16:00 – 17:00" 
-          title: "Why We Should Be Worried About Hardware Trojans"
-          speaker: "Christof Paar"
-          slides: "../slides/2018/christof-paar.pdf"
-          video: "https://www.youtube.com/watch?v=GLkohTZl89U&index=5&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+          title: "ACM's New Effort in Computer Science and Law"
+          speaker: "Joan Feigenbaum"
+          slides: 
+          video: 
 
         - time: "17:00 – 18:00" 
-          title: "Analysing Access Pattern and Volume Leakage from Range Queries on Encrypted Databases"
-          speaker: "Kenny Paterson"
-          slides: "../slides/2018/kenny-paterson.pdf"
-          video: "https://www.youtube.com/watch?v=okCM1IAbIZ0&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+          title: "Ligthning Talks"
+          speaker: 
+          slides: 
+          video: 
+
+        - time: "18:00 – 22:00" 
+          title: "Joint BBQ on the BC rooftop terrace"
+          speaker: 
+          slides: 
+          video: 
 
     - date: "14.06.19"
       entries: 
 
-        - time: "09:30 – 10:15" 
+        - time: "08:30 – 09:00" 
           title: "Welcome coffee"
           speaker: 
           slides: 
           video:
 
-        - time: "10:15 – 11:15" 
-          title: "Catching and Preventing Privacy Problems in Systems and Deep Neural Networks"
-          speaker: "Ulfar Erlingsson"
+        - time: "09:00 – 10:00" 
+          title: "Less Insecure (But Still Useful) Secure Hardware"
+          speaker: "James Mickens"
           slides: 
-          video:
+          video: 
 
-        - time: "11:15 – 12:15" 
-          title: "Privacy and Security Risks and Opportunities with PII-based Targeted Advertising"
-          speaker: "Alan Mislove"
+        - time: "10:00 – 11:00" 
+          title: "tba"
+          speaker: "Mariana Raykova"
           slides: 
-          video: "https://www.youtube.com/watch?v=NdA8NpffpWs&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+          video: 
 
-        - time: "12:15 – 13:30" 
-          title: "Lunch break"
+        - time: "11:00 – 11:30" 
+          title: "Coffee break"
           speaker: 
           slides: 
           video:
 
-        - time: "13:30 – 14:30" 
-          title: "Why are Organisations Slow to Adopt PETs? Differential Privacy as a Case Study"
-          speaker: "Theresa Stadler"
-          slides: "../slides/2018/theresa-stadler.pdf"
-          video: "https://www.youtube.com/watch?v=CFjutd_cZuo&index=8&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+        - time: "11:30 – 12:30" 
+          title: "Trusting Machine Learning: Privacy, Robustness, and Interpretability Challenges"
+          speaker: "Reza Shokri"
+          slides: 
+          video: 
 
-        - time: "14:30 – 15:30" 
-          title: "Student lightning talks"
-          speaker:
+        - time: "12:30 – 13:30" 
+          title: "Lunch"
+          speaker: 
           slides: 
           video:
 
+        - time: "13:30 – 14:30"
+          title: "tba"
+          speaker: "Susan McGregor"
+          slides: 
+          video:
+
+        - time: "14:30 – 15:30" 
+          title: "Knowing Without Seeing: Privacy Preserving Data Analysis and Data Protection Law"
+          speaker: "Michael Veale"
+          slides: 
+          video: 
+
         - time: "15:30 – 16:00" 
-          title: "Afternoon coffee + student poster session"
+          title: "Coffee break"
           speaker: 
           slides: 
           video:
 
         - time: "16:00 – 17:00" 
-          title: "How to Avoid Invisible Salamanders: Message Franking in End-to-End Encryption"
-          speaker: "Tom Ristenpart"
+          title: "tba"
+          speaker: "Dimitar Jetchev"
           slides: 
-          video: "https://www.youtube.com/watch?v=XL1msKXMZpA&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
-
-        - time: "17:00 – 18:00" 
-          title: "The Evolving Architecture of the Web and its Impact on Security, Privacy, and Latency"
-          speaker: "Nick Sullivan"
-          slides: "../slides/2018/nick-sullivan.pdf"
-          video: "https://www.youtube.com/watch?v=Jm4cQpQTs7g&index=10&list=PL95IbaKDuVrLeLaRmDof5o3_FE75tdcZP"
+          video:
 
 security:
 
