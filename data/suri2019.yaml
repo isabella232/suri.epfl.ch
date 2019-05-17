@@ -201,7 +201,7 @@ security:
       img: "speakers/reza-shokri.jpg"
 
     - name: "Michael Veale"
-      affil: "UCL"
+      affil: "Alan Turing Institute"
       site: "https://michae.lv/"
       img: "speakers/michael-veale.png"
 
