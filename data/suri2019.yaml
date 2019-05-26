@@ -52,7 +52,7 @@ talks:
 
         - time: "14:30 – 15:30" 
           title: "tba"
-          speaker: "Thaddeus Grugq"
+          speaker: 
           slides: 
           video: 
 
@@ -154,11 +154,6 @@ security:
       affil: "Yale University"
       site: "http://www.cs.yale.edu/homes/jf/"
       img: "speakers/joan-feigenbaum.jpg"
-
-    - name: "Thaddeus Grugq"
-      affil: "Comae Technologies"
-      site: "https://medium.com/@thegrugq"
-      img: "speakers/the-grugq.png"
 
     - name: "Katharina Krombholz"
       affil: "CISPA"
