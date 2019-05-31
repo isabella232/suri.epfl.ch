@@ -51,8 +51,8 @@ talks:
           video: 
 
         - time: "14:30 – 15:30" 
-          title: "tba"
-          speaker: 
+          title: "ACM's New Effort in Computer Science and Law"
+          speaker: "Joan Feigenbaum"
           slides: 
           video: 
 
@@ -63,8 +63,8 @@ talks:
           video:
 
         - time: "16:00 – 17:00" 
-          title: "ACM's New Effort in Computer Science and Law"
-          speaker: "Joan Feigenbaum"
+          title: "Censored: Distraction and Diversion Inside China's Great Firewall?"
+          speaker: "Margaret Roberts"
           slides: 
           video: 
 
@@ -182,8 +182,13 @@ security:
 
     - name: "Mariana Raykova"
       affil: "Google"
-      site: "#"
+      site: "https://marianapr.github.io/"
       img: "speakers/mariana-raykova.jpg"
+
+    - name: "Margaret Roberts"
+      affil: "University of California, San Diego"
+      site: "http://www.margaretroberts.net/"
+      img: "speakers/margaret-roberts.jpg"
 
     - name: "Angela Sasse"
       affil: "RUB / UCL"
