@@ -45,8 +45,8 @@ talks:
           video:
 
         - time: "13:30 – 14:30" 
-          title: "Exploiting and Mitigating the Rowhammer Vulnerability"
-          speaker: "Dennis Andriesse"
+          title: "Student Lightning Talks"
+          speaker:
           slides: 
           video: 
 
@@ -69,7 +69,7 @@ talks:
           video: 
 
         - time: "17:00 – 18:00" 
-          title: "Ligthning Talks"
+          title: "Student Poster Session"
           speaker: 
           slides: 
           video: 
@@ -144,11 +144,6 @@ talks:
           video:
 
 security:
-
-    - name: "Dennis Andriesse"
-      affil: "VU Amsterdam"
-      site: "https://syssec.mistakenot.net/"
-      img: "speakers/dennis-andriesse.jpg"
 
     - name: "Joan Feigenbaum"
       affil: "Yale University"
