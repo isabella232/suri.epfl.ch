@@ -17,7 +17,7 @@ talks:
         - time: "09:00 – 10:00" 
           title: "Effective Security for the Post-compliance Era - Security Awareness and Training for Security Specialists"
           speaker: "Angela Sasse" 
-          slides: 
+          slides: "../slides/2019/angela-sasse.pdf"
           video:
 
         - time: "10:00 – 11:00" 
@@ -98,7 +98,7 @@ talks:
         - time: "10:00 – 11:00" 
           title: "Advanced Cryptography on The Way To Practice"
           speaker: "Mariana Raykova"
-          slides: 
+          slides: "../slides/2019/mariana-raykova.pdf"
           video: 
 
         - time: "11:00 – 11:30" 
@@ -128,7 +128,7 @@ talks:
         - time: "14:30 – 15:30" 
           title: "Knowing Without Seeing: Privacy Preserving Data Analysis and Data Protection Law"
           speaker: "Michael Veale"
-          slides: 
+          slides: "../slides/2019/michael-veale.pdf"
           video: 
 
         - time: "15:30 – 16:00" 
@@ -140,7 +140,7 @@ talks:
         - time: "16:00 – 17:00" 
           title: "Scalable Privacy-Preserving Computing with High Numerical Precision"
           speaker: "Dimitar Jetchev"
-          slides: 
+          slides: "../slides/2019/dimitar-jetchev.pdf"
           video:
 
 security:
