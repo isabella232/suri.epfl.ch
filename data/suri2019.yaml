@@ -23,7 +23,7 @@ talks:
         - time: "10:00 – 11:00" 
           title: "A User-Centric Approach to Securing the HTTPS Ecosystem"
           speaker: "Katharina Krombholz"
-          slides: 
+          slides: "../slides/2019/katharina-krombholz.pdf"
           video: 
 
         - time: "11:00 – 11:30" 
@@ -110,7 +110,7 @@ talks:
         - time: "11:30 – 12:30" 
           title: "Trusting Machine Learning: Privacy, Robustness, and Interpretability Challenges"
           speaker: "Reza Shokri"
-          slides: 
+          slides: "../slides/2019/reza-shokri.pdf"
           video: 
 
         - time: "12:30 – 13:30" 
