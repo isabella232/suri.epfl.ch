@@ -15,16 +15,16 @@ talks:
           video:
 
         - time: "09:00 – 10:00" 
-          title: "Effective Security for the Post-compliance Era - Security Awareness and Training for Security Specialists"
+          title: "Effective Security for the Post-compliance Era"
           speaker: "Angela Sasse" 
           slides: "../slides/2019/angela-sasse.pdf"
-          video:
+          video: "https://tube.switch.ch/cast/videos/00bcee89-b417-4c75-a42f-b66861d96ced"
 
         - time: "10:00 – 11:00" 
           title: "A User-Centric Approach to Securing the HTTPS Ecosystem"
           speaker: "Katharina Krombholz"
           slides: "../slides/2019/katharina-krombholz.pdf"
-          video: 
+          video: "https://tube.switch.ch/cast/videos/895965b1-8df3-49c8-8081-9b502c660cf7"
 
         - time: "11:00 – 11:30" 
           title: "Coffee break"
@@ -99,7 +99,7 @@ talks:
           title: "Advanced Cryptography on The Way To Practice"
           speaker: "Mariana Raykova"
           slides: "../slides/2019/mariana-raykova.pdf"
-          video: 
+          video: "https://tube.switch.ch/cast/videos/5c600da2-a7aa-40eb-9adc-ec092374d032"
 
         - time: "11:00 – 11:30" 
           title: "Coffee break"
@@ -111,7 +111,7 @@ talks:
           title: "Trusting Machine Learning: Privacy, Robustness, and Interpretability Challenges"
           speaker: "Reza Shokri"
           slides: "../slides/2019/reza-shokri.pdf"
-          video: 
+          video: "https://tube.switch.ch/cast/videos/41a89dd5-6db9-4dec-92b1-95438c3aecf4"
 
         - time: "12:30 – 13:30" 
           title: "Lunch"
@@ -123,13 +123,13 @@ talks:
           title: "Back to the Future: How Lessons from Analog Publishing Can Help Fight Disinformation Online"
           speaker: "Susan McGregor"
           slides: 
-          video:
+          video: "https://tube.switch.ch/cast/videos/09a276f2-20fe-4c84-8e36-1869e56295ca"
 
         - time: "14:30 – 15:30" 
           title: "Knowing Without Seeing: Privacy Preserving Data Analysis and Data Protection Law"
           speaker: "Michael Veale"
           slides: "../slides/2019/michael-veale.pdf"
-          video: 
+          video: "https://tube.switch.ch/cast/videos/b4e0fbe5-d5ea-44c9-b902-60a6ad0f6d6d"
 
         - time: "15:30 – 16:00" 
           title: "Coffee break"
@@ -141,7 +141,7 @@ talks:
           title: "Scalable Privacy-Preserving Computing with High Numerical Precision"
           speaker: "Dimitar Jetchev"
           slides: "../slides/2019/dimitar-jetchev.pdf"
-          video:
+          video: "https://tube.switch.ch/cast/videos/e2f0b3eb-e935-4f51-8da1-6355e4f63051"
 
 security:
 
