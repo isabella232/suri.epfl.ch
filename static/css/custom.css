@@ -78,3 +78,14 @@ strong {
     }
 
 }
+
+
+#logo {
+  color: white !important;
+}
+
+.fit img {
+  object-fit:cover;
+  height:200px;
+  width:200px;
+}

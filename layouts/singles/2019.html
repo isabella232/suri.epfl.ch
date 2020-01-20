@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 
-    {{ $config := $.Site.Data.suri2020 }}
+    {{ $config := $.Site.Data.suri2019 }}
 
     {{ $year := $config.year }}
     {{ $dates := $config.dates }}
@@ -33,7 +33,7 @@
                 <div class="top">
 
                     <div>
-                        <a href="{{ .Site.BaseURL }}"><img class="epfl-logo" src="{{ .Site.BaseURL }}img/logos/epfl-logo-2019.png"></a>
+                        <a href="{{ .Site.BaseURL }}"><img class="epfl-logo" src="{{ .Site.BaseURL }}img/logos/epfl-ic-logo.jpg"></a>
                     </div>
 
                     <!-- Logo -->
@@ -64,8 +64,8 @@
 
                     <!-- Social Icons -->
                         <ul class="icons">
-                            <!-- <li><a href="{{ .Site.Social.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-                            <!-- <li><a href="mailto:{{ .Site.Social.mail }}" class="icon fa-envelope"><span class="label">Email</span></a></li>-->
+                            <li><a href="{{ .Site.Social.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="mailto:{{ .Site.Social.mail }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
                         </ul>
                 </div>
 
@@ -75,14 +75,14 @@
             <div id="main">
 
                 <!-- Intro -->
-                    <section id="top" class="one dark cover" style="background-image: url('../img/covers/lausanne-cathedral.jpg'); color: white">
-                        <div class="container" class="dark">
-                          <br>
-                          <br>
-                          <br>
-                          <br>
-                          <br>
-                          <br>
+                    <section id="top" class="one dark cover" style="background-image: url('../img/covers/epfl-aerial-copy.jpg'); color: white">
+                        <div class="container">
+                            <header>
+                                <h4>EPFL</h4>
+                                <h4>School of Computer and Communication Sciences</h4>
+                                <h2>{{ .Site.Title }} {{ $year }}</h2>
+                                <p>{{ $dates }}</p>
+                            </header>
                         </div>
                     </section>
 
@@ -90,28 +90,31 @@
                     <section id="overview" class="two">
                         <div class="container">
                             <header>
-                                <h4>EPFL School of Computer and Communication Sciences</h4>
-                                <h2>{{ .Site.Title }} {{ $year }}</h2>
-                                <h4>on Systems, Security, and Privacy</h4>
-                                <p>{{ $dates }}</p>
-                            </header>
-                            <header>
                                 <h2>Overview</h2>
                             </header>
                             <main>
                                 <p>
                                     The <strong>Summer Research Institute (SuRI)</strong> is an annual event that takes place at the 
                                     <a href="http://ic.epfl.ch/">School of Computer and Communication Sciences</a> of the <a href="https://epfl.ch">École polytechnique fédérale de Lausanne</a>, Switzerland.
-                                    The workshop brings together researchers and experts from academia and industry for research talks and informal discussions.
+                                    The workshop brings together renowned researchers and experts from academia and industry. 
+                                    It features a number of research talks by speakers from all around the world and is conducive to informal discussions and social activities. 
+                                    <!--In addition to the invited researchers, the audience includes primarily EPFL students, researchers and faculty members. -->
+                                    <!--This year's edition of SuRI features two tracks: 
+                                    <ul>
+                                        <li><strong>Data Science (June 14 - 16, 2017)</strong></li>
+                                        <li><strong>Security and Privacy (June 19 - 20, 2017)</strong></li>
+                                    </ul>-->
 
                                 </p>
                                 <p>
                                 The event is <strong>open to everyone</strong> and attendance is <strong>free of charge</strong>.<br>
-                                In case you plan to attend SuRI {{ $year }}, please register to facilitate the event's organization.
+                                </p>
+                                <p>
+                                In case you plan to attend SuRI 2019, please register to facilitate the event's organization.
                                 </p>
                             </main>
                             <footer>
-                                <a href="#" class="button">Registration not yet open</a>
+                                <a href="https://goo.gl/forms/CsHDINbsWmQp9CdO2" class="button">Register</a>
                             </footer>
                         </div>
                     </section>
@@ -213,14 +216,14 @@
                                 <h2>Archive</h2>
                             </header>
                             <main>
-                                {{ partial "past.html" . }}
+                                {{ partial "past2019.html" . }}
                             </main>
                         </div>
                     </section>
 
 
                 <!-- Final Image Section -->
-                    <section id="top" class="one dark cover background" style="background-image: url('../img/covers/epfl-aerial-2.jpg');">
+                    <section id="top" class="one dark cover background" style="background-image: url('../img/covers/rolex-center-dawn.jpg');">
                         <div class="container">
                             <p></p>
                         </div>
@@ -234,7 +237,7 @@
 
                 <!-- Copyright -->
                     <ul class="copyright">
-                        <li>&copy; <a href="https://epfl.ch">EPFL</a> {{ $year }}. All rights reserved.</li>
+                        <li>&copy; <a href="https://epfl.ch">EPFL</a> 2019. All rights reserved.</li>
                         <li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
                         <li>Created by <a href="mailto:philipp.jovanovic@epfl.ch">Philipp Jovanovic</a></li>
                     </ul>

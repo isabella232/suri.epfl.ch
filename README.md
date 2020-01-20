@@ -10,15 +10,22 @@ See [https://suri.epfl.ch](https://suri.epfl.ch).
 
 ## Getting Started
 
-Before you create a new version of the website make sure to archive the current
-one, if it has not been done already. You can use the `archive.sh` script for
-that as follows:
+You need to do something along the following lines:
 
-```
-./archive.sh <year>
-```
+1) Create a new config file in: https://github.com/dedis/suri.epfl.ch/tree/master/data
 
-This takes the current site and archives it under https://suri.epfl.ch/year.
+2) Create a new content folder in: https://github.com/dedis/suri.epfl.ch/tree/master/content
+
+3) Create a new `past2019.html` file in:
+https://github.com/dedis/suri.epfl.ch/tree/master/layouts/partials
+
+4) Update `past.html` to the 2020 version:
+https://github.com/dedis/suri.epfl.ch/blob/master/layouts/partials/past.html
+
+5) Activate the new config file from step 1 by changing the following line to `{{ $config := $.Site.Data.suri2020 }}`
+https://github.com/dedis/suri.epfl.ch/blob/master/layouts/index.html#L4
+
+To make the website available online, you can use `make build && make deploy` after you've uploaded your ssh public key to dedis.ch and added the following entry to your .ssh/config file:
 
 ## Development and Deployment
 

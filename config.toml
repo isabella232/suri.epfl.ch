@@ -1,9 +1,9 @@
 languageCode = "en-us"
 baseurl = "https://suri.epfl.ch/"
-title = "The Summer Research Institute"
+title = "Summer Research Institute"
 
 [social]
-    twitter = "https://twitter.com/epfl"
+#    twitter = "https://twitter.com/epfl"
     mail = "dedis@epfl.ch"
 
 [params]

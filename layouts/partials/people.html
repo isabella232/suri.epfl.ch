@@ -1,5 +1,7 @@
 {{ $path := $.Scratch.Get "path" }}
 {{ $len := len $path }}
+
+{{ if 0 }}
 {{ $t := 12 }}        <!-- total -->
 {{ $s := 4 }}         <!-- number of columns -->
 {{ $r := div $t $s }} <!-- factor -->
@@ -21,8 +23,9 @@
             <div class="{{ $r }}u {{ $t }}u$(mobile)">
         {{ end }}
 
+
             <article id="{{ $e.name }}" class="item">
-                <a href="{{ $e.site }}" class="image fit"><img src="../{{ .Site.BaseURL }}img/{{ $e.img }}" alt="" /></a>
+              <a href="{{ $e.site }}" class="image fit"><img src="../{{ .Site.BaseURL }}img/{{ $e.img }}" alt="{{ $e.name }}" /></a>
                 <header>
                     <h3><a href="{{ $e.site }}">{{ $e.name }} {{ if $e.affil }}<br>({{ $e.affil }}){{end}}</a> </h3>
                 </header>
@@ -54,3 +57,19 @@
     {{ end }}
 </div>
 
+{{ end }}
+
+
+<div class="row">
+    {{ range $i, $e := $path }}
+
+
+            <article id="{{ $e.name }}" class="item">
+              <a href="{{ $e.site }}" class="image fit"><img src="../{{ .Site.BaseURL }}img/{{ $e.img }}" alt="{{ $e.name }}" /></a>
+                <header>
+                    <h3><a href="{{ $e.site }}">{{ $e.name }} {{ if $e.affil }}<br>({{ $e.affil }}){{end}}</a> </h3>
+                </header>
+            </article>
+
+            {{ end }}
+</div>
