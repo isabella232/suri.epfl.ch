@@ -8,6 +8,9 @@ server:
 build:
 	hugo
 
+deploy-dedis:
+	rsync -Paivz --delete $(SRC) suri@dedis.ch:www
+
 deploy:
 	rsync -Paivz --delete $(SRC) $(DEST)
 
