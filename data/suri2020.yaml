@@ -220,6 +220,16 @@ security:
       site: "https://www.cise.ufl.edu/~traynor/"
       img: "speakers/patrick-traynor.jpg"
 
+    - name: "Xi Wang"
+      affil: "UW"
+      site: "https://homes.cs.washington.edu/~xi/"
+      img: "speakers/xi-wang.jpg"
+
+    - name: "Keith Winstein"
+      affil: "Stanford"
+      site: "https://cs.stanford.edu/~keithw/"
+      img: "speakers/keith-winstein.jpg"
+
     - name: "Minlan	Yu"
       affil: "Harvard"
       site: "https://minlanyu.seas.harvard.edu/"
