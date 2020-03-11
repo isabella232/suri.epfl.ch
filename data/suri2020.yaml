@@ -238,6 +238,14 @@ security:
 
 organizers:
 
+    - name: "Katerina Argyraki"
+      site: "https://people.epfl.ch/katerina.argyraki"
+      img: "organizers/katerina-argyraki.jpg"
+
+    - name: "George Candea"
+      site: "https://dslab.epfl.ch/people/candea/"
+      img: "organizers/george-candea.jpg"
+
     - name: "Henry Corrigan-Gibbs"
       site: "https://people.csail.mit.edu/henrycg/"
       img: "organizers/henry-corrigan-gibbs.jpg"
