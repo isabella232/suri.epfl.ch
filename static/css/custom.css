@@ -89,3 +89,12 @@ strong {
   height:200px;
   width:200px;
 }
+
+.warning {
+  border: 2px solid red;
+  color: red !important;
+}
+.warning h2 strong {
+  color: red !important;
+}
+

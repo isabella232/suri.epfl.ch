@@ -93,8 +93,29 @@
                                 <h4>EPFL School of Computer and Communication Sciences</h4>
                                 <h2>{{ .Site.Title }} {{ $year }}</h2>
                                 <h4>on Systems, Security, and Privacy</h4>
+                            {{ if $config.coronavirus }}
+                            <p><span style="text-decoration: line-through;">{{ $dates }}</span> (Cancelled)</p>
+                            {{ else }}
                                 <p>{{ $dates }}</p>
+                            {{ end }}
                             </header>
+                            {{ if $config.coronavirus }}
+                            <header class="warning">
+                              <h2><strong>SuRI {{ $year }} Cancelled</strong></h2>
+
+                              We are sad to report
+                              that, due to the
+                              spread of
+                              coronavirus and the
+                              accompanying travel
+                              restrictions, we
+                              must cancel SuRI
+                              2020. Stay healthy and
+                              we will hope to see you at
+                              SuRI next year.
+                            </header>
+                            
+                            {{ end }}
                             <header>
                                 <h2>Overview</h2>
                             </header>
